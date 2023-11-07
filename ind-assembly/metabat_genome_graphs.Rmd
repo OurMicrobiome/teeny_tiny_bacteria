@@ -1,0 +1,229 @@
+---
+title: "Analysis of Metabat MAGs from the Barre Woods Filter Metagenomes"
+author: "Jeffrey Blanchard"
+date: "9/16/2022"
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    theme: united
+    highlight: tango
+---
+
+# This report is an analysis of the Barre Woods filter metagenomes. Assembly, binning, quality control and classification was done on KBase
+(https://narrative.kbase.us/narrative/105147). The CheckM and GTDB files were downloaded to this project folder. I also made used of tables derived from analysis of the metabat bins in VSorter2 which calculated the bin size.
+
+## Load Libraries
+
+```{r}
+# Load libraries
+library(tidyverse)
+library(DT)
+```
+### Load Data
+
+```{r}
+all_metabat_bin_size_50_10 <- read_tsv("all_metabat_bin_size_50_10.tsv",
+col_types = 
+  cols(
+    Domain = col_factor(),
+    Phylum = col_factor(),
+    Class = col_factor(),
+    Order = col_factor(),
+    Family = col_factor(),
+    Genus  = col_factor(),
+    Species = col_factor(),
+    Metagenome  = col_factor()
+  ))
+```
+
+
+## Graphs
+
+### Phyla pie chart
+```{r}
+all_metabat_bin_size_50_10 %>% 
+  count(Phylum, sort = TRUE) %>% 
+  ggplot(aes(x = "", y = n, fill = reorder(Phylum, -n))) + 
+    geom_bar(width = 1, stat = "identity") +
+    coord_polar(theta = "y", start=0) +
+ #   geom_text(aes(label = paste0(n)), position = position_stack(vjust=0.5)) +
+    labs(fill="Phylum", 
+       x=NULL, 
+       y=NULL, 
+       title="Phyla in filter MAGs")
+```
+
+```{r}
+all_metabat_bin_size_50_10 %>% 
+  count(Phylum, sort = TRUE) %>% 
+  ggplot(aes(x=reorder(Phylum, n), y = n)) +
+  geom_col(colour = "maroon", fill = "maroon") +
+  coord_flip()+
+  ggtitle("Number of MAGs for each Phylum") +
+  ylab("Number of MAGs") + 
+  xlab("Phylum") 
+```
+```{r}
+all_metabat_bin_size_50_10 %>% 
+  filter(BinContigLenSum <2000000) %>% 
+  count(Phylum, sort = TRUE) %>% 
+  ggplot(aes(x=reorder(Phylum, n), y = n)) +
+  geom_col(colour = "maroon", fill = "maroon") +
+  coord_flip()+
+  ggtitle("Number of MAGs for each Phylum") +
+  ylab("Number of MAGs < 2MB") + 
+  xlab("Phylum") 
+```
+
+
+```{r}
+all_metabat_bin_size_50_10 %>% 
+  count(Metagenome, Phylum, sort = TRUE) %>% 
+  ggplot(aes(x=reorder(Phylum, n), y = n, fill = Metagenome)) +
+  geom_col() +
+  coord_flip()+
+  ggtitle("Number of MAGs for each Phylum") +
+  ylab("Number of MAGs") + 
+  xlab("Phylum") 
+```
+
+### 
+
+```{r, fig.height=8}
+all_metabat_bin_size_50_10 %>% 
+  count(Metagenome, Phylum, sort = TRUE) %>% 
+  ggplot(aes(x=reorder(Phylum, n), y = n, fill = Metagenome)) +
+  geom_col() +
+  coord_flip()+
+  ggtitle("Number of MAGs for each Phylum") +
+  ylab("Number of MAGs") + 
+  xlab("Phylum") +
+  facet_wrap(~Metagenome)
+```
+
+
+
+```{r, fig.height=8}
+all_metabat_bin_size_50_10 %>% 
+  filter(BinContigLenSum <2000000) %>% 
+  count(Metagenome, Phylum, sort = TRUE) %>% 
+  ggplot(aes(x=reorder(Phylum, n), y = n, fill = Metagenome)) +
+  geom_col() +
+  coord_flip()+
+  ggtitle("Number of MAGs for each Phylum") +
+  ylab("Number of MAGs") + 
+  xlab("Phylum") +
+  facet_wrap(~Metagenome)
+```
+
+
+
+
+### Class bar chart
+
+```{r, fig.height=10}
+all_metabat_bin_size_50_10 %>% 
+  count(Class, sort = TRUE) %>% 
+  ggplot(aes(x=reorder(Class, n), y = n)) +
+  geom_col(colour = "maroon", fill = "maroon") +
+  coord_flip()+
+  ggtitle("Number of MAGs for each Class") +
+  ylab("Number of MAGs") + 
+  xlab("Class")
+```
+
+### Order bar chart
+
+```{r, fig.height=10}
+all_metabat_bin_size_50_10 %>% 
+  count(Order, sort = TRUE) %>% 
+  ggplot(aes(x=reorder(Order, n), y = n)) +
+  geom_col(colour = "maroon", fill = "maroon") +
+  coord_flip()+
+  ggtitle("Number of MAGs for each Order") +
+  ylab("Number of MAGs") + 
+  xlab("Order")
+```
+
+
+
+### Histogram of MAG size distribution
+
+```{r}
+all_metabat_bin_size_50_10 %>% 
+ggplot(aes(x = BinContigLenSum)) + 
+  geom_histogram(colour = "black", fill = "maroon", binwidth=500000) +
+  ggtitle("Genome size of MAGs for each Class") +
+  ylab("Genome size") + 
+  xlab("MAG size (bp)") +
+  theme(text = element_text(size = 20, color="black"))
+```
+
+```{r}
+all_metabat_bin_size_50_10 %>% 
+ggplot(aes(x = BinContigLenSum, fill = Metagenome)) + 
+  geom_histogram(colour = "black", binwidth=500000) +
+  ggtitle("Genome size of MAGs for each Class") +
+  ylab("Genome size") + 
+  xlab("MAG size (bp)") +
+  theme(text = element_text(size = 20, color="black"))
+```
+
+```{r}
+all_metabat_bin_size_50_10 %>% 
+ggplot(aes(x = BinContigLenSum, fill = Metagenome)) + 
+  geom_histogram(colour = "black", binwidth=500000) +
+  ggtitle("Genome size of MAGs for each Class") +
+  ylab("Genome size") + 
+  xlab("MAG size (bp)") +
+  facet_wrap(~Metagenome) +
+  theme(text = element_text(size = 8, color="black"))
+```
+
+
+### xyplot of MAG Size for each class
+```{r}
+all_metabat_bin_size_50_10 %>% 
+ggplot(aes(x = reorder(Class, BinContigLenSum, na.rm = TRUE), y = BinContigLenSum, color = Domain)) + 
+  geom_point() +
+  ggtitle("Genome size of MAGs for each Class") +
+  ylab("MAG size (bp)") + 
+  xlab("Class") +
+  coord_flip()
+```
+### xyplot of MAG Size for each class with jitter
+```{r, fig.height = 8}
+all_metabat_bin_size_50_10 %>% 
+ggplot(aes(x = reorder(Class, BinContigLenSum, na.rm = TRUE), y = BinContigLenSum, color = Domain)) + 
+  geom_jitter() +
+  ggtitle("Genome size of MAGs for each Class") +
+  ylab("MAG size (bp)") + 
+  xlab("Class") +
+  coord_flip()
+```
+
+### Boxplot of MAG size for each class
+
+```{r}
+all_metabat_bin_size_50_10 %>% 
+ggplot(aes(x = reorder(Class, BinContigLenSum, na.rm = TRUE), y = BinContigLenSum, color = Domain)) + 
+  geom_boxplot() +
+  ggtitle("Number of MAGs for each Class") +
+  ylab("MAG size (bp)") + 
+  xlab("Class") +
+  coord_flip()
+```
+
+
+### xyplot of MAG size for each class with metagenome data set
+```{r}
+all_metabat_bin_size_50_10 %>% 
+ggplot(aes(x = reorder(Class, BinContigLenSum, na.rm = TRUE), y = BinContigLenSum, color = Metagenome)) + 
+  geom_point() +
+  ggtitle("Genome size of MAGs for each Class") +
+  ylab("MAG size (bp)") + 
+  xlab("Class") +
+  coord_flip()
+```
+

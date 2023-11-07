@@ -1,0 +1,176 @@
+Metagenome	Bin Name	Completeness	Contamination	Domain	Phylum	Class	Order	Family	Genus	Species	BinContigLenSum	gcMean
+C1	bin.001	98.21	0	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Rahnella	Rahnella chamberiensis_A	5237627	53
+C1	bin.005	81.83	4.59	Bacteria	Firmicutes_C	Negativicutes	Sporomusales	Acetonemaceae			2387371	46
+C1	bin.006	81.3	4.76	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	UBA11358	UBA11358		2077213	54
+C1	bin.007	73.64	0	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		800667	53
+C1	bin.008	98.62	5.48	Bacteria	Firmicutes_A	Clostridia	Clostridiales	Clostridiaceae			4747890	34
+C1	bin.010	94.85	2.16	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Terracidiphilus		3831607	63
+C1	bin.012	97.36	1.29	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas_E	Pseudomonas_E sp002814235	7131976	61
+C1	bin.016	78.79	0	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	BGMRC-2031		4719231	53
+C1	bin.017	98.25	4.84	Bacteria	Firmicutes	Bacilli	Bacillales_B	DSM-18226	Neobacillus		4645902	38
+C2	bin.001	56.32	5.38	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20			553024	52
+C2	bin.009	54.81	1.72	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Magnetospirillaceae			4781097	65
+C2	bin.013	56.77	3.91	Bacteria	Proteobacteria	Alphaproteobacteria	Micavibrionales_A	UBA9219	JABDFY01		641629	59
+C2	bin.022	91.84	2.61	Bacteria	Acidobacteriota	Acidobacteriae	Bryobacterales	Bryobacteraceae	Palsa-89		5366756	61
+C2	bin.030	93.54	6.35	Bacteria	Firmicutes_C	Negativicutes	Sporomusales	UPPP01			3702316	47
+C2	bin.033	62.18	0.99	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		828550	52
+C2	bin.034	81.25	2.95	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas_E		2486689	65
+C2	bin.036	61.08	1.44	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae			1182774	62
+C2	bin.044	70.69	9.48	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Palsa-343		4162789	62
+C2	bin.045	57.16	2.59	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	CAIVDV01		4511306	59
+C2	bin.046	89.86	2.03	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	UBA11358	UBA11358		2869705	54
+C2	bin.050	90.79	0	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	BGMRC-2031		5486325	53
+C2	bin.051	98.25	4.84	Bacteria	Firmicutes	Bacilli	Bacillales_B	DSM-18226	Neobacillus		4517051	39
+C2	bin.052	98.44	2.16	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Terracidiphilus		4300849	63
+C2	bin.053	63.66	1.1	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		860642	52
+C2	bin.055	57.66	0	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		882058	51
+C2	bin.056	61.51	0.57	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		876203	52
+C2	bin.060	81.18	1.75	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae			2769723	58
+C2	bin.061	80.46	0	Bacteria	Patescibacteria	Paceibacteria	UBA9983_A	UBA6065			601555	51
+C2	bin.064	66.86	1.12	Bacteria	Elusimicrobiota	Elusimicrobia	UBA1565	UBA9628	GWA2-66-18		1806839	68
+C2	bin.067	89.24	0.47	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	UBA11358	UBA11358		2048041	54
+C2	bin.069	73.61	0.93	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	UBA4665	UBA5150		1048499	45
+C2	bin.071	81.54	0	Bacteria	Chlamydiota	Chlamydiia	Chlamydiales	Rhabdochlamydiaceae	PALSA-1444		1756559	44
+C2	bin.073	74.53	0	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20			792132	54
+C2	bin.074	65.28	2.93	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Terracidiphilus		2577173	62
+C2	bin.075	92.63	3.82	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	BOG-931		3819641	61
+C2	bin.077	85.39	0.91	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Silvibacterium		5159012	60
+C2	bin.086	78.97	1.87	Archaea	Micrarchaeota	Micrarchaeia	Micrarchaeales	Micrarchaeaceae	UBA12276		1007921	52
+C2	bin.088	62.79	0	Bacteria	Patescibacteria	Paceibacteria	UBA9983_A	UBA2163	UBA10103		954136	55
+C2	bin.091	86.64	9.25	Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae	Bog-1198		3652242	64
+C2	bin.094	56.93	0.36	Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	SXRF01	JABCZZ01		851341	56
+C2	bin.095	76.21	0	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Rhodanobacteraceae	Dyella		4244067	59
+C2	bin.096	64.53	2.82	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	BOG-931		2456066	63
+C2	bin.100	61.21	1.72	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	PKWO01		4834838	59
+C2	bin.101	97.4	2.03	Bacteria	Bdellovibrionota	Bdellovibrionia	Bdellovibrionales	Bdellovibrionaceae			3894420	46
+C2	bin.103	55.58	0	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		815139	54
+C2	bin.104	85.65	4.89	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Terracidiphilus		4318288	59
+C2	bin.106	68.97	3.37	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		798222	47
+C2	bin.108	95.08	1	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Magnetospirillaceae			5714287	64
+C2	bin.109	85.88	6.23	Bacteria	Gemmatimonadota	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	Fen-1231		3599760	63
+C2	bin.112	60.25	0	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Rahnella	Rahnella chamberiensis_A	2329658	52
+C2	bin.116	58.25	2.5	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium		1658401	64
+C2	bin.122	62.87	1.71	Bacteria	Patescibacteria	Microgenomatia	Levybacterales	UBA12049	JACDET01		1596750	37
+C2	bin.123	97.95	0	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae	CAITEC01		2287052	62
+C2	bin.124	91.87	1.71	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Palsa-343		5093738	61
+C2	bin.128	81	0.93	Archaea	Micrarchaeota	Micrarchaeia	Micrarchaeales	Micrarchaeaceae	UBA12276		1037696	49
+C2	bin.137	74.29	0	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Mucilaginibacter		5719770	41
+C2	bin.139	95.01	1.71	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Koribacteraceae	JABCZH01		5812021	56
+C2	bin.140	98.62	5.78	Bacteria	Firmicutes_A	Clostridia	Clostridiales	Clostridiaceae			4539601	34
+B1	bin.002	67.22	1.72	Bacteria	Patescibacteria	Paceibacteria	UBA9983_A	UBA6065			524458	52
+B1	bin.006	51.91	6.93	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		502076	52
+B1	bin.007	58.22	1.32	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		730648	52
+B1	bin.018	95.85	1.29	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Terracidiphilus		4386541	62
+B1	bin.020	51.95	2.28	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae			1218009	59
+B2	bin.006	52.53	2.38	Bacteria	Bacteroidota	Bacteroidia	AKYH767	Palsa-948	JABEUT01		717231	39
+B2	bin.012	91.78	3.24	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Collimonas		4884450	60
+B2	bin.013	80.46	0	Bacteria	Patescibacteria	Paceibacteria	UBA9983_A	UBA6065			606032	51
+B2	bin.014	84.93	1.37	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae	CAITEC01		1863504	63
+B2	bin.015	83.83	5.48	Bacteria	Acidobacteriota	Acidobacteriae	Bryobacterales	Bryobacteraceae	Palsa-89		4850605	61
+B2	bin.020	98.44	2.16	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Terracidiphilus		4396232	63
+B2	bin.021	64.81	4.46	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	UBA4665	PMNU01		1548596	49
+B2	bin.023	50.89	3.68	Bacteria	Proteobacteria	Alphaproteobacteria	Acetobacterales	Acetobacteraceae			891049	62
+B2	bin.027	57.71	0.03	Bacteria	Chlamydiota	Chlamydiia	Chlamydiales	Rhabdochlamydiaceae	JABDFI01		546489	50
+B2	bin.029	62.29	2.16	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	UBA4665	UBA5150		962689	45
+B2	bin.030	92.41	2.59	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Sediminibacterium		3328393	41
+B2	bin.035	80.54	7.02	Bacteria	Dependentiae	Babeliae	Babeliales				807762	35
+B2	bin.043	64.62	0.86	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae			1295907	62
+B2	bin.044	58.52	0.85	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		931206	51
+B2	bin.049	70.82	3.33	Bacteria	Proteobacteria	Alphaproteobacteria	Micropepsales	Micropepsaceae	Rhizomicrobium		2933075	62
+B2	bin.051	72.03	6.78	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Methylacidiphilales	UBA1321	JABDGH01		2219984	58
+B2	bin.054	78.81	2.59	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Terracidiphilus		3251551	62
+B2	bin.055	89.08	2.77	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae	Palsa-1447		2779932	67
+B2	bin.058	63.66	2.97	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		856844	52
+B2	bin.059	52.58	0	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		797528	50
+B2	bin.060	62.07	6.93	Bacteria	Patescibacteria	Doudnabacteria	UBA920	UBA920	PALSA-1336		798180	44
+B2	bin.067	68.21	0	Bacteria	Patescibacteria	Paceibacteria	UBA9983_A	UBA2163	UBA10103		923595	54
+B2	bin.068	86.57	0.23	Bacteria	Chlamydiota	Chlamydiia	Chlamydiales	Rhabdochlamydiaceae	PALSA-1444		1748562	44
+B2	bin.069	94.59	1.35	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	UBA11358	UBA11358		2969007	54
+B2	bin.072	62.18	0.99	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		848476	53
+B2	bin.075	67.84	0	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		840487	54
+B2	bin.076	72.28	0	Bacteria	Patescibacteria	Microgenomatia	Levybacterales	UBA12049	JACDET01		2034945	36
+B2	bin.077	86.66	3.64	Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae			4279136	64
+B2	bin.079	54.95	0	Bacteria	Patescibacteria	Microgenomatia	Levybacterales	UBA12049	JACDET01		1078045	37
+B2	bin.081	58.47	3.61	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	UBA4665	PMNU01		883768	53
+B2	bin.082	76.64	0.93	Archaea	Micrarchaeota	Micrarchaeia	Micrarchaeales	Micrarchaeaceae	UBA12276		769161	52
+B2	bin.086	61.68	0	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20	CAJAQL01		841959	48
+B2	bin.087	50.82	0	Bacteria	Chlamydiota	Chlamydiia	Chlamydiales	Rhabdochlamydiaceae	PALSA-1444		1274903	43
+B2	bin.088	73.36	0	Bacteria	Patescibacteria	Paceibacteria	UBA9983_A	UBA2163	1-14-0-10-45-20		769884	47
+B2	bin.092	87.59	4.4	Bacteria	Gemmatimonadota	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	Fen-1231		3770304	63
+B2	bin.097	60.97	1.72	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	UBA11358	UBA11358		1841360	53
+B2	bin.103	73.5	2.03	Bacteria	Chlamydiota	Chlamydiia	Chlamydiales	SM23-39	CAIPFQ01		887401	44
+B2	bin.105	85.1	4.76	Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae	Bog-1198		3708150	64
+B2	bin.106	78.42	0	Bacteria	Patescibacteria	Paceibacteria	UBA9983_A	UBA2163	GWA1-54-10		818025	52
+B2	bin.110	53.82	2.72	Bacteria	Patescibacteria	Paceibacteria	UBA6257	2-01-FULL-56-20			859686	51
+B2	bin.114	88.34	9.46	Bacteria	Chlamydiota	Chlamydiia	Chlamydiales	Rhabdochlamydiaceae	CAJCIW01		1917845	44
+B2	bin.115	73.72	0	Bacteria	Patescibacteria	Paceibacteria	UBA9983_A	PALSA-1337	PALSA-1337		655411	49
+B2	bin.122	56.02	4.8	Bacteria	Patescibacteria	Doudnabacteria	UBA920	UBA920	PALSA-1336		492316	45
+B2	bin.128	70.79	0	Bacteria	Patescibacteria	Doudnabacteria	UBA920	VMFF01			805500	56
+B2	bin.131	76.72	0	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	UBA4665	GCA-2746885		936853	53
+B2	bin.139	56.98	4.2	Bacteria	Dependentiae	Babeliae	Babeliales	Vermiphilaceae			1071459	36
+B2	bin.140	71.21	7.51	Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae	13-2-20CM-66-19		1720683	68
+B2	bin.141	91.52	0.87	Bacteria	Proteobacteria	Alphaproteobacteria	Micavibrionales_A	UBA9219	JABDFY01		1989452	59
+B2	bin.142	68.49	0.85	Bacteria	Patescibacteria	Paceibacteria	UBA9983_A	UBA2163	UBA10103		1052374	55
+B2	bin.143	85.17	1.54	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae			2780185	60
+B2	bin.145	69.64	0	Bacteria	Patescibacteria	Paceibacteria	UBA9983_A	UBA2163	C7867-001		660529	57
+B2	bin.148	77.07	1.72	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Rhodanobacteraceae	Dyella		3787261	58
+B2	bin.151	56.34	3.42	Bacteria	Acidobacteriota	Acidobacteriae	UBA7541	UBA7541	Palsa-295		2708208	59
+A1	bin.001	78.46	9.01	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	UBA11358	UBA11358		3069908	55
+A1	bin.006	59.64	0	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	PKWO01		1783236	61
+A1	bin.009	59.77	1.72	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Granulicella_A		4587101	57
+A1	bin.011	87.04	5.73	Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae			7685129	68
+A1	bin.019	85.5	1.14	Bacteria	Proteobacteria	Alphaproteobacteria	Acetobacterales	Acetobacteraceae	CAJCIS01		4082697	64
+A1	bin.021	58.87	2.68	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Roseiarcus		1964525	62
+A1	bin.026	93.74	0.87	Bacteria	Proteobacteria	Gammaproteobacteria	DSM-16500	DSM-16500			2808080	40
+A1	bin.032	72.23	1.72	Bacteria	Patescibacteria	Paceibacteria	UBA9983_A	PALSA-1337	PALSA-1337		618168	50
+A1	bin.034	84.22	6.11	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Terracidiphilus		3809219	60
+A1	bin.036	53.45	1.72	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Herminiimonas		1072623	54
+A1	bin.040	90.5	6.64	Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	Palsa-1150		7001800	70
+A1	bin.043	69.75	0	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Granulicella_A		3739774	58
+A1	bin.045	53.43	0.05	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Granulicella_A		3508205	56
+A1	bin.046	50.17	0	Bacteria	Proteobacteria	Alphaproteobacteria	Azospirillales_A	BOG-932	BOG-932		2335524	63
+A1	bin.048	58.93	10.34	Bacteria	Actinobacteriota	Acidimicrobiia	Acidimicrobiales	RAAP-2	Bog-473		2088818	66
+A1	bin.056	82.5	4.73	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	UBA11358	UBA11358		4100719	59
+A1	bin.058	89.56	3.04	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	UBA11358	UBA11358		4040317	52
+A1	bin.062	85.42	9.25	Bacteria	Proteobacteria	Alphaproteobacteria	Acetobacterales	Acetobacteraceae	Rhodopila		6039162	64
+A1	bin.064	92.52	4.79	Bacteria	Bacteroidota	Bacteroidia	AKYH767	Palsa-948	JABEUT01		3366274	39
+A1	bin.066	94.66	0	Bacteria	Proteobacteria	Alphaproteobacteria	Acetobacterales	Acetobacteraceae	Acidocella		2989662	62
+A1	bin.067	72.2	2.94	Bacteria	Bacteroidota	Bacteroidia	AKYH767	Palsa-948	JABEUT01		2200649	39
+A1	bin.072	51.72	0	Bacteria	Proteobacteria	Gammaproteobacteria	DSM-16500	DSM-16500	VFKI01		1109580	43
+A3	bin.003	58.02	0.11	Bacteria	Patescibacteria	Doudnabacteria	UBA920	O2-02-FULL-48-8	2-01-FULL-45-18		596172	47
+A3	bin.004	86.08	1.27	Bacteria	Chlamydiota	Chlamydiia	Chlamydiales	Rhabdochlamydiaceae	PALSA-1444		1395028	46
+A3	bin.005	70.81	0.1	Bacteria	Patescibacteria	Doudnabacteria	UBA920	UBA920	PALSA-1336		1205476	45
+A3	bin.008	68.37	0	Bacteria	Patescibacteria	Microgenomatia	Levybacterales	UBA12049	PJMG01		1199767	33
+A3	bin.009	77.59	4.42	Bacteria	Methylomirabilota	Methylomirabilia	Rokubacteriales	GWA2-73-35	AR37		5091475	71
+A3	bin.012	52.7	0	Bacteria	Acidobacteriota	Acidobacteriae	UBA7541	UBA7541			1771798	59
+A3	bin.018	67.39	2.2	Bacteria	Myxococcota	Polyangia	Palsa-1104	Fen-1088			2932184	70
+A3	bin.019	74.26	0.99	Bacteria	Patescibacteria	Microgenomatia	Levybacterales	UBA12049	PPGL01		1161400	35
+A3	bin.028	78.29	0.61	Bacteria	Proteobacteria	Gammaproteobacteria	UBA6186	UBA6186			1327172	43
+A3	bin.029	61.52	1.41	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	AP-16		2252110	67
+A3	bin.034	63.06	3.45	Bacteria	Proteobacteria	Gammaproteobacteria	Nevskiales	Nevskiaceae	Nevskia		1768305	67
+A3	bin.037	74.83	7.52	Bacteria	Planctomycetota	Planctomycetes	Gemmatales	Gemmataceae			5452392	66
+A3	bin.038	66.81	3.91	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Chthoniobacterales				2000764	53
+A3	bin.046	93.61	9.84	Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae	13-2-20CM-66-19		2934044	67
+A3	bin.047	76.38	0.97	Archaea	Thermoproteota	Nitrososphaeria	Nitrososphaerales	Nitrosopumilaceae	TA-20	TA-20 sp013287585	481991	35
+A3	bin.049	95.12	0	Bacteria	Eremiobacterota	Eremiobacteria	Baltobacterales	Baltobacteraceae			2698392	60
+A3	bin.050	81.06	0.43	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Gp1-AA112	DSPA01		2465543	57
+A3	bin.052	94.93	0.68	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Chthoniobacterales	UBA10450	Udaeobacter		2839210	54
+A3	bin.054	83.37	1.36	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Pandoraea		4375429	63
+A3	bin.058	95.5	3.24	Bacteria	Dormibacterota	Dormibacteria	CF-121				2541072	72
+A3	bin.059	78.81	2.4	Archaea	Thermoplasmatota	SW-10-69-26					1688881	71
+A3	bin.061	71.84	0	Bacteria	Patescibacteria	Paceibacteria	UBA9983_A	UBA2163	C7867-001		617353	50
+A3	bin.063	69.59	5.11	Bacteria	Acidobacteriota	Thermoanaerobaculia	UBA5704	UBA5704			5950640	71
+A3	bin.066	66.33	4.63	Bacteria	Patescibacteria	Saccharimonadia	UBA4664	UBA4664			759044	51
+A3	bin.069	61.53	1.12	Bacteria	Elusimicrobiota	Elusimicrobia	2-01-FULL-59-12	2-01-FULL-59-12			901770	55
+A3	bin.072	89.74	5.13	Bacteria	Acidobacteriota	Blastocatellia	UBA7656	UBA7656			8028245	57
+A3	bin.074	59.57	0	Bacteria	Patescibacteria	Doudnabacteria	UBA920	UBA920			767423	50
+A3	bin.078	59.71	0	Bacteria	Eremiobacterota	Eremiobacteria	Baltobacterales	Baltobacteraceae			856275	58
+A3	bin.081	63.53	0	Bacteria	Patescibacteria	Microgenomatia	GWA2-44-7	UBA8517			857225	37
+A3	bin.082	75.25	4.4	Bacteria	Gemmatimonadota	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	Fen-1231		3424673	63
+A3	bin.083	58.45	2.76	Bacteria	Dependentiae	Babeliae	Babeliales	UBA12411			845963	40
+A3	bin.086	78.18	1.82	Bacteria	Nitrospirota	Nitrospiria	Nitrospirales	Nitrospiraceae	Palsa-1315	Palsa-1315 sp005887945	2730713	56
+A3	bin.087	70.76	2.38	Bacteria	Gemmatimonadota	Gemmatimonadetes	Gemmatimonadales	GWC2-71-9	SHZT01		1521699	64
+A3	bin.090	86.15	1.35	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae	Lacunisphaera	Lacunisphaera sp900104925	3491157	65
+A3	bin.091	63.19	1.98	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	UBA4765	UBA4765		797587	57
+A3	bin.094	91.3	0.81	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Mucilaginibacter		3807407	44
+A3	bin.095	91.7	1.22	Bacteria	Bacteroidota	Bacteroidia	AKYH767	Palsa-965	Palsa-965		3770981	44

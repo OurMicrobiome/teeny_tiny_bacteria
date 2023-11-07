@@ -1,0 +1,20 @@
+Bin Name	Marker Lineage	# Genomes	# Markers	# Marker Sets	0	1	2	3	4	5+	Completeness	Contamination
+bin.001	o__Rhodospirillales	63	336	201	13	321	2	0	0	0	95.9	0.5
+bin.002	o__Burkholderiales	107	574	251	172	389	13	0	0	0	69.82	1.2
+bin.003	c__Deltaproteobacteria	83	247	155	27	210	8	2	0	0	90.5	6.64
+bin.004	k__Bacteria	88	230	148	55	152	22	1	0	0	80.58	10.56
+bin.005	k__Bacteria	88	230	148	50	174	5	1	0	0	82.5	4.73
+bin.006	k__Bacteria	5449	104	58	17	86	1	0	0	0	78.42	1.72
+bin.007	c__Gammaproteobacteria	1097	270	172	44	222	4	0	0	0	93.74	0.87
+bin.008	k__Archaea	207	149	107	69	66	10	2	2	0	46.51	4.67
+bin.009	o__Rhizobiales	92	481	319	195	278	8	0	0	0	58.23	1.62
+bin.010	k__Bacteria	924	161	108	81	79	1	0	0	0	47.84	0.93
+bin.011	c__Deltaproteobacteria	83	247	155	31	202	13	0	1	0	87.04	5.73
+bin.012	k__Bacteria	2258	187	116	35	144	8	0	0	0	84.22	6.11
+bin.013	k__Bacteria	2258	187	116	71	114	2	0	0	0	65.8	0.1
+bin.014	k__Bacteria	2993	147	91	30	82	32	3	0	0	81.17	33.57
+bin.015	c__Gammaproteobacteria	1097	270	172	162	101	6	1	0	0	40.51	3.57
+bin.016	k__Bacteria	88	230	148	81	143	6	0	0	0	69.74	3.6
+bin.017	k__Bacteria	88	230	148	16	210	4	0	0	0	91.62	2.36
+bin.018	p__Bacteroidetes	350	316	210	33	269	14	0	0	0	92.52	4.79
+bin.019	o__Burkholderiales	107	574	251	188	377	9	0	0	0	67.79	1.61

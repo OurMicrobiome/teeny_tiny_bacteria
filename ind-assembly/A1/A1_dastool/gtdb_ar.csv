@@ -1,0 +1,2 @@
+"User Genome","Classification","FastANI Reference","FastANI Reference Radius","FastANI Taxonomy","FastANI ANI","FastANI Alignment Fraction","Closest Placement Reference","Closest Placement Taxonomy","Closest Placement ANI","Closest Placement Alignment Fraction","Classification Method","Note","Other Related References","MSA AA Percent","RED Value","Warnings"
+"bin.008.fa","d__Archaea;p__Huberarchaeota;c__Huberarchaeia;o__Huberarchaeales;f__;g__;s__","-","-","-","-","-","-","-","-","-","taxonomic novelty determined using RED","-","-","31.11","0.4066718991","-"

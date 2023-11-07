@@ -1,0 +1,5 @@
+Bin Name	Marker Lineage	# Genomes	# Markers	# Marker Sets	0	1	2	3	4	5+	Completeness	Contamination
+bin.001	k__Bacteria	924	151	101	43	106	2	0	0	0	62.18	1.32
+bin.002	k__Bacteria	924	151	101	63	80	8	0	0	0	51.91	6.93
+bin.003	k__Bacteria	5449	104	58	24	79	1	0	0	0	67.22	1.72
+bin.004	k__Bacteria	2258	187	116	16	169	2	0	0	0	95.85	1.29

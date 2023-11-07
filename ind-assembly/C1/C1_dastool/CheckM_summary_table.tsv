@@ -1,0 +1,9 @@
+Bin Name	Marker Lineage	# Genomes	# Markers	# Marker Sets	0	1	2	3	4	5+	Completeness	Contamination
+bin.001	o__Pseudomonadales	185	813	308	31	759	23	0	0	0	97.33	1.21
+bin.002	p__Firmicutes	100	295	158	50	236	9	0	0	0	81.83	4.59
+bin.003	k__Bacteria	2258	187	116	11	173	3	0	0	0	94.85	2.16
+bin.004	k__Bacteria	5449	104	58	21	83	0	0	0	0	73.64	0.0
+bin.005	k__Bacteria	88	230	148	36	186	7	1	0	0	85.8	4.76
+bin.006	f__Bacillaceae	128	555	180	5	529	20	1	0	0	98.25	4.84
+bin.007	g__Clostridium	44	404	145	2	390	10	2	0	0	98.62	5.48
+bin.008	f__Enterobacteriaceae	55	546	224	1	545	0	0	0	0	99.98	0.0

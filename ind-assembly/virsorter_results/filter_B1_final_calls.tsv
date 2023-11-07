@@ -1,0 +1,22 @@
+	bin	BinContigLenSum	hallmarkSum	gcMean	seqname	max_contigLen	max_score	max_contigLenGroup	full-partial	bin_high_group	bin_high_ContigLenSum	GroupPercent
+0	bin.001	29091175	75	58	NODE_28_length_80520_cov_6.490748	80520		Bacteria?		Bacteria?	27882434.0	95.0
+1	bin.002	524458	0	52	NODE_33_length_71040_cov_5.936719	71040		Bacteria?		Bacteria?	524458.0	100.0
+2	bin.003	400370	7	61	NODE_36_length_67653_cov_5.458327	67653	0.92	dsDNAphage	|full	dsDNAphage	342246.0	85.0
+3	bin.004	76135	0	37	NODE_392_length_17296_cov_5.565918	17296	0.967	dsDNAphage	|full	Bacteria?	53727.0	70.0
+4	bin.005	28849	0	63	NODE_987_length_11093_cov_4.471915	11093		Bacteria?		Bacteria?	28849.0	100.0
+5	bin.006	502076	0	52	NODE_129_length_32045_cov_4.280431	32045		Bacteria?		Bacteria?	426893.0	85.0
+6	bin.007	730648	0	52	NODE_10_length_145493_cov_9.696861	145493		Bacteria?		Bacteria?	708052.0	96.0
+7	bin.008	651006	0	61	NODE_533_length_15209_cov_3.040517	15209		Bacteria?		Bacteria?	637717.0	97.0
+8	bin.009	216371	14	49	NODE_4_length_216371_cov_11.152869	216371	1.0	dsDNAphage	|full	dsDNAphage	216371.0	100.0
+9	bin.010	364639	0	54	NODE_55_length_53221_cov_5.795151	53221		Bacteria?		Bacteria?	333982.0	91.0
+10	bin.011	979920	0	59	NODE_317_length_19137_cov_4.079551	19137		Bacteria?		Bacteria?	931631.0	95.0
+11	bin.012	1762919	18	60	NODE_69_length_45339_cov_9.425095	45339	1.0	dsDNAphage	|full	Bacteria?	1605197.0	91.0
+12	bin.013	236900	0	61	NODE_151_length_29021_cov_6.363081	29021	0.527	lavidaviridae	|full	Bacteria?	172236.0	72.0
+13	bin.014	383692	0	67	NODE_197_length_24204_cov_3.715433	24204		Bacteria?		Bacteria?	378477.0	98.0
+14	bin.015	2854704	2	54	NODE_62_length_48060_cov_5.590168	48060		Bacteria?		Bacteria?	2707015.0	94.0
+15	bin.016	279335	0	47	NODE_703_length_13169_cov_3.967668	13169		Bacteria?		Bacteria?	235840.0	84.0
+16	bin.017	163447	0	65	NODE_1554_length_8993_cov_2.914634	8993		Bacteria?		Bacteria?	163447.0	100.0
+17	bin.018	4386541	4	62	NODE_1_length_449271_cov_24.657383	449271		Bacteria?		Bacteria?	4254568.0	96.0
+18	bin.020	1218009	5	59	NODE_40_length_64622_cov_10.059674	64622		Bacteria?		Bacteria?	1127734.0	92.0
+19	bin.021	424450	2	53	NODE_464_length_16071_cov_4.408904	16071		Bacteria?		Bacteria?	378155.0	89.0
+20	bin.unbinned	5396065	232	52	NODE_9_length_151760_cov_33.060387	151760	0.993	dsDNAphage	|full			

@@ -1,0 +1,37 @@
+Metagenome	Bin Name	Completeness	Contamination	Domain	Phylum	Class	Order	Family	Genus	Species	BinContigLenSum	gcMean
+C1	bin.001	98.21	0	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Rahnella	Rahnella chamberiensis_A	5237627	53
+C1	bin.008	98.62	5.48	Bacteria	Firmicutes_A	Clostridia	Clostridiales	Clostridiaceae			4747890	34
+C1	bin.010	94.85	2.16	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Terracidiphilus		3831607	63
+C1	bin.012	97.36	1.29	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas_E	Pseudomonas_E sp002814235	7131976	61
+C1	bin.017	98.25	4.84	Bacteria	Firmicutes	Bacilli	Bacillales_B	DSM-18226	Neobacillus		4645902	38
+C2	bin.022	91.84	2.61	Bacteria	Acidobacteriota	Acidobacteriae	Bryobacterales	Bryobacteraceae	Palsa-89		5366756	61
+C2	bin.030	93.54	6.35	Bacteria	Firmicutes_C	Negativicutes	Sporomusales	UPPP01			3702316	47
+C2	bin.046	89.86	2.03	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	UBA11358	UBA11358		2869705	54
+C2	bin.050	90.79	0	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	BGMRC-2031		5486325	53
+C2	bin.051	98.25	4.84	Bacteria	Firmicutes	Bacilli	Bacillales_B	DSM-18226	Neobacillus		4517051	39
+C2	bin.052	98.44	2.16	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Terracidiphilus		4300849	63
+C2	bin.075	92.63	3.82	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	BOG-931		3819641	61
+C2	bin.101	97.4	2.03	Bacteria	Bdellovibrionota	Bdellovibrionia	Bdellovibrionales	Bdellovibrionaceae			3894420	46
+C2	bin.108	95.08	1	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Magnetospirillaceae			5714287	64
+C2	bin.123	97.95	0	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae	CAITEC01		2287052	62
+C2	bin.124	91.87	1.71	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Palsa-343		5093738	61
+C2	bin.139	95.01	1.71	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Koribacteraceae	JABCZH01		5812021	56
+C2	bin.140	98.62	5.78	Bacteria	Firmicutes_A	Clostridia	Clostridiales	Clostridiaceae			4539601	34
+B1	bin.018	95.85	1.29	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Terracidiphilus		4386541	62
+B2	bin.012	91.78	3.24	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Collimonas		4884450	60
+B2	bin.020	98.44	2.16	Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae	Terracidiphilus		4396232	63
+B2	bin.030	92.41	2.59	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Sediminibacterium		3328393	41
+B2	bin.069	94.59	1.35	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	UBA11358	UBA11358		2969007	54
+B2	bin.141	91.52	0.87	Bacteria	Proteobacteria	Alphaproteobacteria	Micavibrionales_A	UBA9219	JABDFY01		1989452	59
+A1	bin.026	93.74	0.87	Bacteria	Proteobacteria	Gammaproteobacteria	DSM-16500	DSM-16500			2808080	40
+A1	bin.040	90.5	6.64	Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	Palsa-1150		7001800	70
+A1	bin.058	89.56	3.04	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	UBA11358	UBA11358		4040317	52
+A1	bin.064	92.52	4.79	Bacteria	Bacteroidota	Bacteroidia	AKYH767	Palsa-948	JABEUT01		3366274	39
+A1	bin.066	94.66	0	Bacteria	Proteobacteria	Alphaproteobacteria	Acetobacterales	Acetobacteraceae	Acidocella		2989662	62
+A3	bin.046	93.61	9.84	Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae	13-2-20CM-66-19		2934044	67
+A3	bin.049	95.12	0	Bacteria	Eremiobacterota	Eremiobacteria	Baltobacterales	Baltobacteraceae			2698392	60
+A3	bin.052	94.93	0.68	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Chthoniobacterales	UBA10450	Udaeobacter		2839210	54
+A3	bin.058	95.5	3.24	Bacteria	Dormibacterota	Dormibacteria	CF-121				2541072	72
+A3	bin.072	89.74	5.13	Bacteria	Acidobacteriota	Blastocatellia	UBA7656	UBA7656			8028245	57
+A3	bin.094	91.3	0.81	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Mucilaginibacter		3807407	44
+A3	bin.095	91.7	1.22	Bacteria	Bacteroidota	Bacteroidia	AKYH767	Palsa-965	Palsa-965		3770981	44

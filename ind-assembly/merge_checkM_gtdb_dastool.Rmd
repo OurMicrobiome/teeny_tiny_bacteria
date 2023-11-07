@@ -1,0 +1,210 @@
+---
+title: "filter_checkM_gtdb"
+author: "Jeffrey Blanchard"
+date: "12/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(DT)
+```
+
+```{r}
+C1_dastool_checkM <- read_tsv("C1/C1_dastool/CheckM_summary_table.tsv")
+C1_dastool_gtdb <- read_csv("C1/C1_dastool/gtdb.csv")
+
+# out taxa categories in separate columns
+# change bin names in gtdb to remove .fa
+C1_dastool_gtdb <- C1_dastool_gtdb %>% 
+  mutate_at("User Genome", str_replace, ".fa", "") %>% 
+  rename(`Bin Name` = `User Genome`) %>% 
+  mutate_at("Classification", str_replace, "d__", "") %>% 
+  mutate_at("Classification", str_replace, "p__", "") %>% 
+  mutate_at("Classification", str_replace, "c__", "") %>% 
+  mutate_at("Classification", str_replace, "o__", "") %>% 
+  mutate_at("Classification", str_replace, "f__", "") %>% 
+  mutate_at("Classification", str_replace, "g__", "") %>% 
+  mutate_at("Classification", str_replace, "s__", "") %>% 
+  separate(Classification, c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), ";") %>% 
+  mutate(`RED Value` = as.character(`RED Value`))
+
+# merge columns and add column name 
+C1_dastool_merge <- left_join(C1_dastool_checkM,
+    C1_dastool_gtdb, by = c("Bin Name")) %>% 
+    mutate(Metagenome = "C1") %>% 
+    relocate(Metagenome)
+```
+
+
+```{r}
+C2_dastool_checkM <- read_tsv("C2/C2_dastool/CheckM_summary_table.tsv")
+C2_dastool_gtdb <- read_csv("C2/C2_dastool/gtdb.csv")
+
+# out taxa categories in separate columns
+# change bin names in gtdb to remove .fa
+C2_dastool_gtdb <- C2_dastool_gtdb %>% 
+  mutate_at("User Genome", str_replace, ".fa", "") %>% 
+  rename(`Bin Name` = `User Genome`) %>% 
+  mutate_at("Classification", str_replace, "d__", "") %>% 
+  mutate_at("Classification", str_replace, "p__", "") %>% 
+  mutate_at("Classification", str_replace, "c__", "") %>% 
+  mutate_at("Classification", str_replace, "o__", "") %>% 
+  mutate_at("Classification", str_replace, "f__", "") %>% 
+  mutate_at("Classification", str_replace, "g__", "") %>% 
+  mutate_at("Classification", str_replace, "s__", "") %>% 
+  separate(Classification, c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), ";") %>% 
+  mutate(`RED Value` = as.character(`RED Value`))
+
+# merge columns and add column name 
+C2_dastool_merge <- left_join(C2_dastool_checkM,
+    C2_dastool_gtdb, by = c("Bin Name")) %>% 
+    mutate(Metagenome = "C2") %>% 
+    relocate(Metagenome)
+```
+
+```{r}
+B1_dastool_checkM <- read_tsv("B1/B1_dastool/CheckM_summary_table.tsv")
+B1_dastool_gtdb <- read_csv("B1/B1_dastool/gtdb.csv")
+
+# out taxa categories in separate columns
+# change bin names in gtdb to remove .fa
+B1_dastool_gtdb <- B1_dastool_gtdb %>% 
+  mutate_at("User Genome", str_replace, ".fa", "") %>% 
+  rename(`Bin Name` = `User Genome`) %>% 
+  mutate_at("Classification", str_replace, "d__", "") %>% 
+  mutate_at("Classification", str_replace, "p__", "") %>% 
+  mutate_at("Classification", str_replace, "c__", "") %>% 
+  mutate_at("Classification", str_replace, "o__", "") %>% 
+  mutate_at("Classification", str_replace, "f__", "") %>% 
+  mutate_at("Classification", str_replace, "g__", "") %>% 
+  mutate_at("Classification", str_replace, "s__", "") %>% 
+  separate(Classification, c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), ";") %>% 
+  mutate(`RED Value` = as.character(`RED Value`))
+
+# merge columns and add column name 
+B1_dastool_merge <- left_join(B1_dastool_checkM,
+    B1_dastool_gtdb, by = c("Bin Name")) %>% 
+    mutate(Metagenome = "B1") %>% 
+    relocate(Metagenome)
+```
+
+```{r}
+B2_dastool_checkM <- read_tsv("B2/B2_dastool/CheckM_summary_table.tsv")
+B2_dastool_gtdb <- read_csv("B2/B2_dastool/gtdb.csv")
+
+# out taxa categories in separate columns
+# change bin names in gtdb to remove .fa
+B2_dastool_gtdb <- B2_dastool_gtdb %>% 
+  mutate_at("User Genome", str_replace, ".fa", "") %>% 
+  rename(`Bin Name` = `User Genome`) %>% 
+  mutate_at("Classification", str_replace, "d__", "") %>% 
+  mutate_at("Classification", str_replace, "p__", "") %>% 
+  mutate_at("Classification", str_replace, "c__", "") %>% 
+  mutate_at("Classification", str_replace, "o__", "") %>% 
+  mutate_at("Classification", str_replace, "f__", "") %>% 
+  mutate_at("Classification", str_replace, "g__", "") %>% 
+  mutate_at("Classification", str_replace, "s__", "") %>% 
+  separate(Classification, c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), ";") %>% 
+  mutate(`RED Value` = as.character(`RED Value`))
+
+# merge columns and add column name 
+B2_dastool_merge <- left_join(B2_dastool_checkM,
+    B2_dastool_gtdb, by = c("Bin Name")) %>% 
+    mutate(Metagenome = "B2") %>% 
+    relocate(Metagenome)
+```
+
+```{r}
+A1_dastool_checkM <- read_tsv("A1/A1_dastool/CheckM_summary_table.tsv")
+A1_dastool_gtdb <- read_csv("A1/A1_dastool/gtdb.csv")
+
+# out taxa categories in separate columns
+# change bin names in gtdb to remove .fa
+A1_dastool_gtdb <- A1_dastool_gtdb %>% 
+  mutate_at("User Genome", str_replace, ".fa", "") %>% 
+  rename(`Bin Name` = `User Genome`) %>% 
+  mutate_at("Classification", str_replace, "d__", "") %>% 
+  mutate_at("Classification", str_replace, "p__", "") %>% 
+  mutate_at("Classification", str_replace, "c__", "") %>% 
+  mutate_at("Classification", str_replace, "o__", "") %>% 
+  mutate_at("Classification", str_replace, "f__", "") %>% 
+  mutate_at("Classification", str_replace, "g__", "") %>% 
+  mutate_at("Classification", str_replace, "s__", "") %>% 
+  separate(Classification, c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), ";") %>% 
+  mutate(`RED Value` = as.character(`RED Value`))
+
+# merge columns and add column name 
+A1_dastool_merge <- left_join(A1_dastool_checkM,
+    A1_dastool_gtdb, by = c("Bin Name")) %>% 
+    mutate(Metagenome = "A1") %>% 
+    relocate(Metagenome)
+```
+
+
+```{r}
+A3_dastool_checkM <- read_tsv("A3/A3_dastool/CheckM_summary_table.tsv")
+A3_dastool_gtdb <- read_csv("A3/A3_dastool/gtdb.csv")
+
+# out taxa categories in separate columns
+# change bin names in gtdb to remove .fa
+A3_dastool_gtdb <- A3_dastool_gtdb %>% 
+  mutate_at("User Genome", str_replace, ".fa", "") %>% 
+  rename(`Bin Name` = `User Genome`) %>% 
+  mutate_at("Classification", str_replace, "d__", "") %>% 
+  mutate_at("Classification", str_replace, "p__", "") %>% 
+  mutate_at("Classification", str_replace, "c__", "") %>% 
+  mutate_at("Classification", str_replace, "o__", "") %>% 
+  mutate_at("Classification", str_replace, "f__", "") %>% 
+  mutate_at("Classification", str_replace, "g__", "") %>% 
+  mutate_at("Classification", str_replace, "s__", "") %>% 
+  separate(Classification, c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), ";") %>% 
+  mutate(`RED Value` = as.character(`RED Value`))
+
+# merge columns and add column name 
+A3_dastool_merge <- left_join(A3_dastool_checkM,
+    A3_dastool_gtdb, by = c("Bin Name")) %>% 
+    mutate(Metagenome = "A3") %>% 
+    relocate(Metagenome)
+```
+
+```{r}
+# merge TIBBLES
+all_dastool <- bind_rows(C1_dastool_merge, C2_dastool_merge, B1_dastool_merge, B2_dastool_merge, A1_dastool_merge, A3_dastool_merge)
+```
+
+
+```{r}
+all_dastool_50_10 <- all_dastool %>%
+  filter(Completeness > 50) %>% 
+  filter(Contamination < 10) 
+```
+
+```{r}
+datatable(all_dastool_50_10 %>% 
+  group_by(Phylum) %>% 
+  summarise(n = n()) %>%
+  mutate(freq = n / sum(n)) 
+)
+```
+
+```{r}
+all_dastool_90_10 <- all_dastool %>%
+  filter(Completeness > 90) %>% 
+  filter(Contamination < 10) 
+```
+
+```{r}
+datatable(all_dastool_90_10 %>% 
+  group_by(Phylum) %>% 
+  summarise(n = n()) %>%
+  mutate(freq = n / sum(n)) 
+)
+```
+
+
+

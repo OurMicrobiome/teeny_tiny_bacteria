@@ -1,0 +1,520 @@
+---
+title: "Analysis of Metabat MAGs from the Barre Woods Filter Metagenomes"
+author: "Jeffrey Blanchard"
+date: "12/11/2021"
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    theme: united
+    highlight: tango
+---
+
+# This report is an analysis of the Barre Woods filter metagenomes. Assembly, binning, quality control and classification was done on KBase
+(https://narrative.kbase.us/narrative/105147). The CheckM and GTDB files were downloaded to this project folder. I also made used of tables derived from analysis of the metabat bins in VSorter2 which calculated the bin size.
+
+## Load Libraries
+
+```{r}
+# Load libraries
+library(tidyverse)
+library(DT)
+```
+
+## Import Data
+
+### Import CheckM and GTDB files. Merge them into a single data frame (tibble)
+
+```{r}
+C1_metabat_checkM <- read_tsv("C1/C1_metabat/CheckM_summary_table.tsv")
+C1_metabat_gtdb <- read_csv("C1/C1_metabat/gtdb.csv")
+
+# out taxa categories in separate columns
+# change bin names in gtdb to remove .fa
+C1_metabat_gtdb <- C1_metabat_gtdb %>% 
+  mutate_at("User Genome", str_replace, ".fa", "") %>% 
+  rename(`Bin Name` = `User Genome`) %>% 
+  mutate_at("Classification", str_replace, "d__", "") %>% 
+  mutate_at("Classification", str_replace, "p__", "") %>% 
+  mutate_at("Classification", str_replace, "c__", "") %>% 
+  mutate_at("Classification", str_replace, "o__", "") %>% 
+  mutate_at("Classification", str_replace, "f__", "") %>% 
+  mutate_at("Classification", str_replace, "g__", "") %>% 
+  mutate_at("Classification", str_replace, "s__", "") %>% 
+  separate(Classification, c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), ";")
+
+# merge columns and add column name 
+C1_metabat_merge <- left_join(C1_metabat_checkM,
+    C1_metabat_gtdb, by = c("Bin Name")) %>% 
+    mutate(Metagenome = "C1") %>% 
+    relocate(Metagenome)
+```
+
+
+```{r}
+C2_metabat_checkM <- read_tsv("C2/C2_metabat/CheckM_summary_table.tsv")
+C2_metabat_gtdb <- read_csv("C2/C2_metabat/gtdb.csv")
+
+# out taxa categories in separate columns
+# change bin names in gtdb to remove .fa
+C2_metabat_gtdb <- C2_metabat_gtdb %>% 
+  mutate_at("User Genome", str_replace, ".fa", "") %>% 
+  rename(`Bin Name` = `User Genome`) %>% 
+  mutate_at("Classification", str_replace, "d__", "") %>% 
+  mutate_at("Classification", str_replace, "p__", "") %>% 
+  mutate_at("Classification", str_replace, "c__", "") %>% 
+  mutate_at("Classification", str_replace, "o__", "") %>% 
+  mutate_at("Classification", str_replace, "f__", "") %>% 
+  mutate_at("Classification", str_replace, "g__", "") %>% 
+  mutate_at("Classification", str_replace, "s__", "") %>% 
+  separate(Classification, c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), ";")
+
+# merge columns and add column name 
+C2_metabat_merge <- left_join(C2_metabat_checkM,
+    C2_metabat_gtdb, by = c("Bin Name")) %>% 
+    mutate(Metagenome = "C2") %>% 
+    relocate(Metagenome)
+```
+
+```{r}
+B1_metabat_checkM <- read_tsv("B1/B1_metabat/CheckM_summary_table.tsv")
+B1_metabat_gtdb <- read_csv("B1/B1_metabat/gtdb.csv")
+
+# out taxa categories in separate columns
+# change bin names in gtdb to remove .fa
+B1_metabat_gtdb <- B1_metabat_gtdb %>% 
+  mutate_at("User Genome", str_replace, ".fa", "") %>% 
+  rename(`Bin Name` = `User Genome`) %>% 
+  mutate_at("Classification", str_replace, "d__", "") %>% 
+  mutate_at("Classification", str_replace, "p__", "") %>% 
+  mutate_at("Classification", str_replace, "c__", "") %>% 
+  mutate_at("Classification", str_replace, "o__", "") %>% 
+  mutate_at("Classification", str_replace, "f__", "") %>% 
+  mutate_at("Classification", str_replace, "g__", "") %>% 
+  mutate_at("Classification", str_replace, "s__", "") %>% 
+  separate(Classification, c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), ";") %>% 
+  mutate(`RED Value` = as.character(`RED Value`))
+
+# merge columns and add column name 
+B1_metabat_merge <- left_join(B1_metabat_checkM,
+    B1_metabat_gtdb, by = c("Bin Name")) %>% 
+    mutate(Metagenome = "B1") %>% 
+    relocate(Metagenome)
+```
+
+```{r}
+B2_metabat_checkM <- read_tsv("B2/B2_metabat/CheckM_summary_table.tsv")
+B2_metabat_gtdb <- read_csv("B2/B2_metabat/gtdb.csv")
+
+# out taxa categories in separate columns
+# change bin names in gtdb to remove .fa
+B2_metabat_gtdb <- B2_metabat_gtdb %>% 
+  mutate_at("User Genome", str_replace, ".fa", "") %>% 
+  rename(`Bin Name` = `User Genome`) %>% 
+  mutate_at("Classification", str_replace, "d__", "") %>% 
+  mutate_at("Classification", str_replace, "p__", "") %>% 
+  mutate_at("Classification", str_replace, "c__", "") %>% 
+  mutate_at("Classification", str_replace, "o__", "") %>% 
+  mutate_at("Classification", str_replace, "f__", "") %>% 
+  mutate_at("Classification", str_replace, "g__", "") %>% 
+  mutate_at("Classification", str_replace, "s__", "") %>% 
+  separate(Classification, c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), ";")
+
+# merge columns and add column name 
+B2_metabat_merge <- left_join(B2_metabat_checkM,
+    B2_metabat_gtdb, by = c("Bin Name")) %>% 
+    mutate(Metagenome = "B2") %>% 
+    relocate(Metagenome)
+```
+
+```{r}
+A1_metabat_checkM <- read_tsv("A1/A1_metabat/CheckM_summary_table.tsv")
+A1_metabat_gtdb <- read_csv("A1/A1_metabat/gtdb.csv")
+
+# out taxa categories in separate columns
+# change bin names in gtdb to remove .fa
+A1_metabat_gtdb <- A1_metabat_gtdb %>% 
+  mutate_at("User Genome", str_replace, ".fa", "") %>% 
+  rename(`Bin Name` = `User Genome`) %>% 
+  mutate_at("Classification", str_replace, "d__", "") %>% 
+  mutate_at("Classification", str_replace, "p__", "") %>% 
+  mutate_at("Classification", str_replace, "c__", "") %>% 
+  mutate_at("Classification", str_replace, "o__", "") %>% 
+  mutate_at("Classification", str_replace, "f__", "") %>% 
+  mutate_at("Classification", str_replace, "g__", "") %>% 
+  mutate_at("Classification", str_replace, "s__", "") %>% 
+  separate(Classification, c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), ";") %>% 
+  mutate(`RED Value` = as.character(`RED Value`))
+
+# merge columns and add column name 
+A1_metabat_merge <- left_join(A1_metabat_checkM,
+    A1_metabat_gtdb, by = c("Bin Name")) %>% 
+    mutate(Metagenome = "A1") %>% 
+    relocate(Metagenome)
+```
+
+
+```{r}
+A3_metabat_checkM <- read_tsv("A3/A3_metabat/CheckM_summary_table.tsv")
+A3_metabat_gtdb <- read_csv("A3/A3_metabat/gtdb.csv")
+
+# out taxa categories in separate columns
+# change bin names in gtdb to remove .fa
+A3_metabat_gtdb <- A3_metabat_gtdb %>% 
+  mutate_at("User Genome", str_replace, ".fa", "") %>% 
+  rename(`Bin Name` = `User Genome`) %>% 
+  mutate_at("Classification", str_replace, "d__", "") %>% 
+  mutate_at("Classification", str_replace, "p__", "") %>% 
+  mutate_at("Classification", str_replace, "c__", "") %>% 
+  mutate_at("Classification", str_replace, "o__", "") %>% 
+  mutate_at("Classification", str_replace, "f__", "") %>% 
+  mutate_at("Classification", str_replace, "g__", "") %>% 
+  mutate_at("Classification", str_replace, "s__", "") %>% 
+  separate(Classification, c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"), ";")
+
+# merge columns and add column name 
+A3_metabat_merge <- left_join(A3_metabat_checkM,
+    A3_metabat_gtdb, by = c("Bin Name")) %>% 
+    mutate(Metagenome = "A3") %>% 
+    relocate(Metagenome)
+```
+
+```{r}
+# merge tables
+all_metabat <- bind_rows(C1_metabat_merge, C2_metabat_merge, B1_metabat_merge, B2_metabat_merge, A1_metabat_merge, A3_metabat_merge)
+```
+
+
+### Import bin (MAG) size (bp) from Vsorter2 data (downloaded from Unity)
+```{r}
+
+A1_virsorter_final_calls <- read_tsv("/home/jlb/jlb@umass.edu/GoEcology/Research/GoEcology/2020_NEB_filter_metagenomes/git/filter_metagenomes/virsorter_results/filter_A1_final_calls.tsv") %>% 
+  rename(`Bin Name` = `bin`) %>% 
+  mutate(Metagenome = "A1") %>% 
+  mutate(Pore = "1.2um") %>% 
+  relocate(Metagenome)
+
+A3_virsorter_final_calls <- read_tsv("/home/jlb/jlb@umass.edu/GoEcology/Research/GoEcology/2020_NEB_filter_metagenomes/git/filter_metagenomes/virsorter_results/filter_A3_final_calls.tsv") %>% 
+  rename(`Bin Name` = `bin`) %>% 
+  mutate(Metagenome = "A3") %>% 
+  mutate(Pore = "0.2um") %>% 
+  relocate(Metagenome)
+
+B1_virsorter_final_calls <- read_tsv("/home/jlb/jlb@umass.edu/GoEcology/Research/GoEcology/2020_NEB_filter_metagenomes/git/filter_metagenomes/virsorter_results/filter_B1_final_calls.tsv") %>% 
+  rename(`Bin Name` = `bin`) %>% 
+  mutate(Metagenome = "B1") %>% 
+  mutate(Pore = "1.2um") %>% 
+  relocate(Metagenome)
+
+B2_virsorter_final_calls <- read_tsv("/home/jlb/jlb@umass.edu/GoEcology/Research/GoEcology/2020_NEB_filter_metagenomes/git/filter_metagenomes/virsorter_results/filter_B2_final_calls.tsv") %>% 
+  rename(`Bin Name` = `bin`) %>% 
+  mutate(Metagenome = "B2") %>% 
+  mutate(Pore = "0.2um") %>% 
+  relocate(Metagenome)
+
+C1_virsorter_final_calls <- read_tsv("/home/jlb/jlb@umass.edu/GoEcology/Research/GoEcology/2020_NEB_filter_metagenomes/git/filter_metagenomes/virsorter_results/filter_C1_final_calls.tsv") %>% 
+  rename(`Bin Name` = `bin`) %>% 
+  mutate(Metagenome = "C1") %>% 
+  mutate(Pore = "1.2um") %>% 
+  relocate(Metagenome)
+
+C2_virsorter_final_calls <- read_tsv("/home/jlb/jlb@umass.edu/GoEcology/Research/GoEcology/2020_NEB_filter_metagenomes/git/filter_metagenomes/virsorter_results/filter_C2_final_calls.tsv") %>% 
+  rename(`Bin Name` = `bin`) %>% 
+  mutate(Metagenome = "C2") %>% 
+  mutate(Pore = "0.2um") %>% 
+  relocate(Metagenome)
+
+```
+
+```{r}
+#merge individual metagenomes into a single table
+bin_size <- bind_rows(A1_virsorter_final_calls, A3_virsorter_final_calls, B1_virsorter_final_calls, B2_virsorter_final_calls, C1_virsorter_final_calls, C2_virsorter_final_calls)
+```
+
+### Join CheckM, GTDB and MAG size tables
+
+```{r}
+all_metabat_bin_size <- left_join(all_metabat,
+    bin_size, by = c("Metagenome", "Bin Name")) %>% 
+    select(Metagenome, `Bin Name`, Completeness, Contamination, Domain, Phylum, Class, Order, Family, Genus, Species, BinContigLenSum, gcMean)
+  
+```
+
+```{r, eval=FALSE}
+# write summary file
+write_tsv(all_metabat_bin_size, "all_metabat_bin_size.tsv") 
+
+```
+
+## Data analysis
+
+### Filter low quality MAGs
+
+```{r}
+all_metabat_bin_size_90_10 <- all_metabat_bin_size %>%
+  filter(Completeness > 89.5) %>% 
+  filter(Contamination < 10.4) 
+write_tsv(all_metabat_bin_size_90_10, "all_metabat_bin_size_90_10")
+```
+```{r}
+all_metabat_bin_size_50_10 <- all_metabat_bin_size %>%
+  filter(Completeness > 49.5) %>% 
+  filter(Contamination < 10.4) 
+write_tsv(all_metabat_bin_size_50_10, "all_metabat_bin_size_50_10")
+```
+
+#### Table of Medium and High Quality MAGs
+
+```{r}
+datatable(all_metabat_bin_size_50_10 %>% 
+  group_by(Phylum) %>% 
+  summarise(n = n()) %>%
+  mutate(freq = n / sum(n)) %>% 
+  arrange(-n)
+)
+```
+
+#### Table of High Quality MAGs
+
+```{r}
+datatable(all_metabat_bin_size_90_10 %>% 
+  group_by(Phylum) %>% 
+  summarise(n = n()) %>%
+  mutate(freq = n / sum(n)) %>% 
+  arrange(-n)
+)
+```
+
+
+#### Phyla
+
+```{r, echo=FALSE}
+all_metabat_50_10 %>% 
+  count(Phylum, sort = TRUE) %>% 
+  ggplot(aes(x = "", y = n, fill = reorder(Phylum, -n))) + 
+    geom_bar(width = 1, stat = "identity") +
+    coord_polar(theta = "y", start=0) +
+ #   geom_text(aes(label = paste0(n)), position = position_stack(vjust=0.5)) +
+    labs(fill="Phylum", 
+       x=NULL, 
+       y=NULL, 
+       title="Phyla in filter MAGs")
+```
+#### Class
+
+```{r, echo=FALSE}
+all_metabat_50_10 %>% 
+  count(Class, sort = TRUE) %>% 
+  ggplot(aes(x = "", y = n, fill = reorder(Class, -n))) + 
+    geom_bar(width = 1, stat = "identity") +
+    coord_polar(theta = "y", start=0) +
+ #   geom_text(aes(label = paste0(n)), position = position_stack(vjust=0.5)) +
+    labs(fill="Class", 
+       x=NULL, 
+       y=NULL, 
+       title="Class in filter MAGs")
+```
+
+
+#### Order
+
+```{r, echo=FALSE}
+all_metabat_50_10 %>% 
+  count(Order, sort = TRUE) %>% 
+  ggplot(aes(x = "", y = n, fill = reorder(Order, -n))) + 
+    geom_bar(width = 1, stat = "identity") +
+    coord_polar(theta = "y", start=0) +
+ #   geom_text(aes(label = paste0(n)), position = position_stack(vjust=0.5)) +
+    labs(fill="Order", 
+       x=NULL, 
+       y=NULL, 
+       title="Order in filter MAGs")
+```
+
+
+#### Phyla bar chart
+
+
+```{r, echo=FALSE}
+all_metabat_50_10 %>% 
+  count(Phylum, sort = TRUE) %>% 
+  ggplot(aes(x=reorder(Phylum, n), y = n)) +
+  geom_col(colour = "maroon", fill = "maroon") +
+  coord_flip()+
+  ggtitle("Number of MAGs for each Phylum") +
+  ylab("Number of MAGs") + 
+  xlab("Class")
+```
+
+
+#### Class bar chart
+
+
+```{r, echo=FALSE}
+all_metabat_50_10 %>% 
+  count(Class, sort = TRUE) %>% 
+  ggplot(aes(x=reorder(Class, n), y = n)) +
+  geom_col(colour = "maroon", fill = "maroon") +
+  coord_flip()+
+  ggtitle("Number of MAGs for each Class") +
+  ylab("Number of MAGs") + 
+  theme(text = element_text(size = 20, color="black")) +
+  xlab("Class")
+```
+
+
+
+```{r}
+all_metabat_virsorter_50_10 <-all_metabat_virsorter %>%
+  filter(Completeness > 50) %>% 
+  filter(Contamination < 10) 
+```
+
+
+
+```{r}
+all_metabat_virsorter_50_10 %>% 
+ggplot(aes(x = Class, y = BinContigLenSum, color = Domain)) + 
+  geom_point() +
+  ggtitle("Number of MAGs for each Class") +
+  ylab("Number of MAGs") + 
+  xlab("Class") +
+  coord_flip()
+#  theme(axis.text.x = element_text(angle = 90)) 
+```
+
+```{r}
+all_metabat_virsorter_50_10 %>% 
+ggplot(aes(x = reorder(Class, BinContigLenSum, na.rm = TRUE), y = BinContigLenSum, color = Domain)) + 
+  geom_boxplot() +
+  ggtitle("Number of MAGs for each Class") +
+  ylab("Number of MAGs") + 
+  xlab("Class") +
+  coord_flip()
+#  theme(axis.text.x = element_text(angle = 90)) 
+```
+
+
+```{r}
+all_metabat_virsorter_50_10 %>% 
+ggplot(aes(x = reorder(Class, BinContigLenSum, na.rm = TRUE), y = BinContigLenSum, color = Domain)) + 
+  geom_point() +
+  ggtitle("Genome size of MAGs for each Class") +
+  ylab("Genome size") + 
+  xlab("Class") +
+  coord_flip() +
+  theme(text = element_text(size = 20, color="black"))
+#  theme(axis.text.x = element_text(angle = 90)) 
+```
+
+## Histogram
+
+```{r}
+all_metabat_virsorter_50_10 %>% 
+ggplot(aes(x = BinContigLenSum)) + 
+  geom_histogram(colour = "black", fill = "maroon", binwidth=500000) +
+  ggtitle("Genome size of MAGs for each Class") +
+  ylab("Genome size") + 
+  theme(text = element_text(size = 20, color="black"))
+#  theme(axis.text.x = element_text(angle = 90)) 
+```
+
+ggplot(df, aes(x=weight, color=sex)) +
+  geom_histogram(fill="white")
+  
+  
+```{r}
+all_metabat_virsorter_50_10 %>% 
+ggplot(aes(x = reorder(Class, BinContigLenSum, na.rm = TRUE), y = BinContigLenSum, color = Pore)) + 
+  geom_point() +
+  ggtitle("Genome size of MAGs for each Class") +
+  ylab("Number of MAGs") + 
+  xlab("Class") +
+  coord_flip()
+#  theme(axis.text.x = element_text(angle = 90)) 
+```
+
+```{r}
+all_metabat_virsorter_50_10 %>% 
+ggplot(aes(x = reorder(Class, BinContigLenSum, na.rm = TRUE), y = BinContigLenSum, color = Metagenome)) + 
+  geom_point() +
+  ggtitle("Genome size of MAGs for each Class") +
+  ylab("Number of MAGs") + 
+  xlab("Class") +
+  coord_flip()
+#  theme(axis.text.x = element_text(angle = 90)) 
+```
+
+
+```{r}
+all_metabat_virsorter_50_10 %>% 
+ggplot(aes(x = reorder(Phylum, BinContigLenSum, na.rm = TRUE), y = BinContigLenSum, color = Domain)) + 
+  geom_point() +
+  ggtitle("Number of MAGs for each Phylum") +
+  ylab("Number of MAGs") + 
+  xlab("Phylum") +
+  coord_flip()
+#  theme(axis.text.x = element_text(angle = 90)) 
+```
+
+
+
+```{r}
+all_metabat_virsorter_50_10 %>% 
+ggplot(aes(x = reorder(Order, BinContigLenSum, na.rm = TRUE), y = BinContigLenSum, color = Domain)) + 
+  geom_point() +
+  ggtitle("Number of MAGs for each Order") +
+  ylab("Number of MAGs") + 
+  xlab("Order") +
+  coord_flip()
+#  theme(axis.text.x = element_text(angle = 90)) 
+```
+
+
+```{r}
+write_tsv(all_metabat_virsorter, "all_metabat_virsorter.tsv")
+write_tsv(all_metabat_virsorter_50_10, "all_metabat_virsorter_50_10")
+```
+
+# Phages
+
+```{r}
+all_metabat_virsorter_phage <- all_metabat_virsorter %>% 
+  filter(bin_high_group == "dsDNAphage")
+```
+
+
+```{r}
+all_metabat_virsorter_phage %>% 
+ggplot(aes(x = bin_high_group, y = BinContigLenSum)) + 
+  geom_point(colour = "maroon", fill = "maroon") +
+  geom_jitter(colour = "maroon", fill = "maroon") +
+  ggtitle("Genome size of dsDNA phage MAGs") +
+  ylab("Number of MAGs") + 
+  xlab("dsDNA phage MAGs") +
+  coord_flip()
+#  theme(axis.text.x = element_text(angle = 90)) 
+```
+
+
+
+```{r}
+all_metabat_virsorter_phage %>% 
+ggplot(aes(x = bin_high_group, y = BinContigLenSum)) + 
+  geom_jitter(colour = "maroon", fill = "maroon") +
+  ggtitle("Genome size of dsDNA phage MAGs") +
+  ylab("Genome size") + 
+  xlab("dsDNA phage MAGs") +
+  theme(text = element_text(size = 20, color="black")) +
+  coord_flip()
+#  theme(axis.text.x = element_text(angle = 90)) 
+```
+
+```{r}
+all_metabat_virsorter_phage %>% 
+ggplot(aes(x = bin_high_group, y = BinContigLenSum)) + 
+  geom_point() +
+  coord_flip()
+#  theme(axis.text.x = element_text(angle = 90)) 
+```
+

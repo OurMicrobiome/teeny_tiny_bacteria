@@ -1,0 +1,79 @@
+	seqname	bin	max_contigLen	max_score	max_contigLenGroup	full-partial
+706	NODE_707_length_36722_cov_4.785938	bin.001	36722		Bacteria?	
+511	NODE_512_length_43090_cov_6.034367	bin.002	43090	0.973	dsDNAphage	|full
+1628	NODE_1629_length_23292_cov_19.470500	bin.003	23292		Bacteria?	
+1905	NODE_1906_length_21440_cov_3.506430	bin.004	21440		Bacteria?	
+442	NODE_443_length_45577_cov_4.599666	bin.005	45577	0.827	NCLDV	|full
+857	NODE_858_length_33326_cov_3.910072	bin.006	33326		Bacteria?	
+8583	NODE_8584_length_8770_cov_3.079977	bin.007	8770		Bacteria?	
+4277	NODE_4278_length_13327_cov_3.331299	bin.008	13327		Bacteria?	
+42	NODE_43_length_111166_cov_14.868780	bin.009	111166		Bacteria?	
+2513	NODE_2514_length_18247_cov_3.763467	bin.010	18247		Bacteria?	
+76	NODE_77_length_95026_cov_5.620632	bin.011	95026		Bacteria?	
+12348	NODE_12349_length_7054_cov_2.896414	bin.012	7054	0.673	NCLDV	|full
+3422	NODE_3423_length_15225_cov_3.198550	bin.013	15225		Bacteria?	
+3126	NODE_3127_length_16070_cov_3.421855	bin.014	16070		Bacteria?	
+9663	NODE_9664_length_8173_cov_3.855014	bin.015	8173		Bacteria?	
+8919	NODE_8920_length_8567_cov_3.419408	bin.016	8567	1.0	dsDNAphage	|full
+8878	NODE_8879_length_8590_cov_3.284359	bin.017	8590		Bacteria?	
+922	NODE_923_length_32096_cov_4.467744	bin.018	32096		Bacteria?	
+238	NODE_239_length_60586_cov_9.576250	bin.019	60586		Bacteria?	
+160	NODE_161_length_70189_cov_9.215787	bin.020	70189		Bacteria?	
+2995	NODE_2996_length_16456_cov_3.156881	bin.021	16456		Bacteria?	
+5792	NODE_5793_length_11078_cov_3.414588	bin.022	11078		Bacteria?	
+78	NODE_79_length_94046_cov_4.912141	bin.023	94046		Bacteria?	
+4	NODE_5_length_205290_cov_15.480376	bin.024	205290	1.0	dsDNAphage	|full
+1700	NODE_1701_length_22854_cov_4.428835	bin.025	22854		Bacteria?	
+23	NODE_24_length_129488_cov_6.211986	bin.026	129488		Bacteria?	
+2369	NODE_2370_length_18919_cov_3.388200	bin.027	18919		Bacteria?	
+2534	NODE_2535_length_18168_cov_6.501297	bin.028	18168		Bacteria?	
+50	NODE_51_length_105431_cov_21.824049	bin.029	105431		Bacteria?	
+206	NODE_207_length_64159_cov_7.730532	bin.030	64159		Bacteria?	
+385	NODE_386_length_48964_cov_7.521499	bin.031	48964		Bacteria?	
+193	NODE_194_length_65924_cov_5.662330	bin.032	65924	0.907	dsDNAphage	|0_partial
+3531	NODE_3532_length_14918_cov_3.651887	bin.033	14918		Bacteria?	
+120	NODE_121_length_80764_cov_6.969867	bin.034	80764		Bacteria?	
+14	NODE_15_length_138487_cov_5.189003	bin.035	138487	0.98	dsDNAphage	|full
+690	NODE_691_length_37145_cov_3.803909	bin.036	37145		Bacteria?	
+492	NODE_493_length_43660_cov_11.826327	bin.037	43660	1.0	dsDNAphage	|full
+2260	NODE_2261_length_19377_cov_24.676793	bin.038	19377		Bacteria?	
+30	NODE_31_length_119006_cov_21.555212	bin.039	119006		Bacteria?	
+6	NODE_7_length_161027_cov_8.070832	bin.040	161027		Bacteria?	
+5480	NODE_5481_length_11443_cov_3.674131	bin.041	11443		Bacteria?	
+253	NODE_254_length_59802_cov_17.122266	bin.042	59802		Bacteria?	
+20	NODE_21_length_130392_cov_11.414587	bin.043	130392		Bacteria?	
+7372	NODE_7373_length_9591_cov_3.075294	bin.044	9591		Bacteria?	
+141	NODE_142_length_74316_cov_37.066145	bin.045	74316		Bacteria?	
+988	NODE_989_length_30978_cov_4.479675	bin.046	30978		Bacteria?	
+451	NODE_452_length_45018_cov_5.116674	bin.047	45018		Bacteria?	
+1622	NODE_1623_length_23374_cov_4.201338	bin.048	23374		Bacteria?	
+3	NODE_4_length_206523_cov_7.396308	bin.049	206523	0.993	NCLDV	|full
+1950	NODE_1951_length_21222_cov_4.807578	bin.050	21222		Bacteria?	
+3164	NODE_3165_length_15944_cov_3.950406	bin.051	15944		Bacteria?	
+0	NODE_1_length_290145_cov_10.843852	bin.052	290145		Bacteria?	
+5177	NODE_5178_length_11884_cov_4.045651	bin.053	11884		Bacteria?	
+13890	NODE_13891_length_6582_cov_2.597365	bin.054	6582		Bacteria?	
+14980	NODE_14981_length_6303_cov_3.275128	bin.055	6303		Bacteria?	
+742	NODE_743_length_35946_cov_6.822825	bin.056	35946		Bacteria?	
+20989	NODE_20990_length_5157_cov_2.849471	bin.057	5157		Bacteria?	
+2	NODE_3_length_207491_cov_12.007067	bin.058	207491		Bacteria?	
+6221	NODE_6222_length_10593_cov_3.970962	bin.059	10593		Bacteria?	
+1063	NODE_1064_length_29744_cov_4.526390	bin.060	29744		Bacteria?	
+4844	NODE_4845_length_12395_cov_3.162480	bin.061	12395		Bacteria?	
+317	NODE_318_length_53902_cov_5.449459	bin.062	53902		Bacteria?	
+5885	NODE_5886_length_10961_cov_3.174858	bin.063	10961		Bacteria?	
+8	NODE_9_length_151904_cov_12.521702	bin.064	151904		Bacteria?	
+211	NODE_212_length_63739_cov_6.708545	bin.065	63739	0.92	NCLDV	|full
+11	NODE_12_length_145086_cov_21.482338	bin.066	145086		Bacteria?	
+695	NODE_696_length_36978_cov_8.332692	bin.067	36978		Bacteria?	
+1240	NODE_1241_length_27182_cov_4.256092	bin.068	27182		Bacteria?	
+670	NODE_671_length_37830_cov_7.306870	bin.069	37830	0.96	NCLDV	|full
+3296	NODE_3297_length_15566_cov_3.364773	bin.070	15566		Bacteria?	
+416	NODE_417_length_47205_cov_5.796119	bin.071	47205		Bacteria?	
+2697	NODE_2698_length_17555_cov_4.036857	bin.072	17555		Bacteria?	
+5740	NODE_5741_length_11137_cov_3.509114	bin.073	11137		Bacteria?	
+2180	NODE_2181_length_19763_cov_3.022783	bin.074	19763	0.993	dsDNAphage	|full
+2168	NODE_2169_length_19848_cov_10.849543	bin.075	19848		Bacteria?	
+615	NODE_616_length_39522_cov_6.557757	bin.076	39522	0.98	dsDNAphage	|full
+428	NODE_429_length_46363_cov_9.302302	bin.077	46363		Bacteria?	
+7	NODE_8_length_154290_cov_21.974273	bin.unbinned	154290		Bacteria?	

@@ -1,0 +1,22 @@
+Bin Name	Marker Lineage	# Genomes	# Markers	# Marker Sets	0	1	2	3	4	5+	Completeness	Contamination
+bin.001	k__Bacteria	5449	104	58	0	4	7	16	8	69	100.0	693.32
+bin.002	k__Bacteria	5449	104	58	24	79	1	0	0	0	67.22	1.72
+bin.003	root	5656	56	24	56	0	0	0	0	0	0.0	0.0
+bin.004	k__Bacteria	5449	104	58	78	24	2	0	0	0	29.39	3.45
+bin.005	root	5656	56	24	56	0	0	0	0	0	0.0	0.0
+bin.006	k__Bacteria	924	151	101	63	80	8	0	0	0	51.91	6.93
+bin.007	k__Bacteria	924	151	101	47	102	2	0	0	0	58.22	1.32
+bin.008	o__Rhizobiales	107	485	316	196	206	70	10	3	0	64.18	21.69
+bin.009	root	5656	56	24	56	0	0	0	0	0	0.0	0.0
+bin.010	k__Bacteria	2993	143	89	55	67	20	1	0	0	55.07	12.57
+bin.011	k__Bacteria	5449	104	58	77	26	1	0	0	0	37.23	0.86
+bin.012	c__Gammaproteobacteria	67	481	276	212	183	64	13	7	2	57.83	26.01
+bin.013	root	5656	56	24	56	0	0	0	0	0	0.0	0.0
+bin.014	k__Bacteria	5449	101	57	84	16	1	0	0	0	22.81	1.75
+bin.015	k__Bacteria	88	230	148	32	158	40	0	0	0	88.98	20.95
+bin.016	k__Bacteria	5449	104	58	82	22	0	0	0	0	28.22	0.0
+bin.017	k__Bacteria	5449	104	58	83	21	0	0	0	0	25.16	0.0
+bin.018	k__Bacteria	2258	187	116	16	169	2	0	0	0	95.85	1.29
+bin.019	k__Bacteria	5449	104	58	98	6	0	0	0	0	9.48	0.0
+bin.020	k__Bacteria	88	227	146	111	112	4	0	0	0	51.95	2.28
+bin.021	k__Bacteria	5449	104	58	84	20	0	0	0	0	18.34	0.0

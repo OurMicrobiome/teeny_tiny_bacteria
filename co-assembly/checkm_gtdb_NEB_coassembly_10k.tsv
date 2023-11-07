@@ -1,0 +1,393 @@
+bin	Marker Lineage	# Genomes	# Markers	# Marker Sets	0	1	2	3	4	5	Completeness	Contamination	user_genome	classification	bin_length	bin_%GC	contig_count
+bin.004	k__Archaea	207	149	107	28	120	1	0	0	0	78.66	0.93	id3	d__Archaea;p__Micrarchaeota;c__Micrarchaeia;o__Micrarchaeales;f__Micrarchaeaceae;g__UBA12276;s__	1011851	49	12
+bin.043	k__Archaea	207	149	107	26	121	2	0	0	0	78.97	1.87	id42	d__Archaea;p__Micrarchaeota;c__Micrarchaeia;o__Micrarchaeales;f__Micrarchaeaceae;g__UBA12276;s__	1010733	52	4
+bin.304	p__Euryarchaeota	148	188	125	18	168	0	2	0	0	90.8	1.6	id303	d__Archaea;p__Thermoplasmatota;c__E2;o__UBA9212;f__;g__;s__	2018583	71	58
+bin.033	k__Bacteria	2258	187	116	32	155	0	0	0	0	94.26	0	id32	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__;s__	2381809	62	44
+bin.163	k__Bacteria	5449	104	58	92	12	0	0	0	0	7.52	0	id162	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Acidobacterium_A;s__	608565	55	46
+bin.222	k__Bacteria	5449	104	58	90	14	0	0	0	0	22.41	0	id221	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Acidobacterium_A;s__Acidobacterium_A sp013285705	2097639	55	135
+bin.134	k__Bacteria	2258	187	116	70	116	1	0	0	0	69.08	0.86	id133	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__CAIVDV01;s__	3445856	59	138
+bin.287	k__Bacteria	5449	104	58	84	20	0	0	0	0	32.76	0	id286	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__CAIVDV01;s__	2343176	59	153
+bin.034	k__Bacteria	2258	187	116	60	119	8	0	0	0	64.99	2.78	id33	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Granulicella_A;s__	4979772	58	201
+bin.101	k__Bacteria	2258	187	116	48	131	8	0	0	0	93.75	5.17	id100	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Granulicella_A;s__	5046363	57	87
+bin.325	k__Bacteria	2258	188	117	152	36	0	0	0	0	12.46	0	id324	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Silvibacterium;s__	557473	59	41
+bin.358	k__Bacteria	2258	188	117	90	98	0	0	0	0	66.56	0	id357	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Silvibacterium;s__Silvibacterium sp013289875	3820072	58	196
+bin.085	k__Bacteria	5449	104	58	96	8	0	0	0	0	12.93	0	id84	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	464313	60	36
+bin.092	k__Bacteria	5449	104	58	2	71	31	0	0	0	98.28	11.21	id91	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	8325231	58	107
+bin.097	k__Bacteria	2258	187	116	36	150	1	0	0	0	92.46	0.86	id96	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	5218641	61	25
+bin.119	k__Bacteria	2258	187	116	18	168	1	0	0	0	94.95	0.17	id118	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	4026064	58	112
+bin.132	k__Bacteria	2258	187	116	60	116	11	0	0	0	85.49	9.48	id131	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	7003962	57	291
+bin.158	k__Bacteria	5449	104	58	81	23	0	0	0	0	25.39	0	id157	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	2014941	60	130
+bin.198	k__Bacteria	2258	187	116	18	161	8	0	0	0	86.42	5.34	id197	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	8240664	58	291
+bin.246	k__Bacteria	2258	187	116	6	174	7	0	0	0	95.47	2.78	id245	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	4411621	58	73
+bin.255	k__Bacteria	5449	104	58	91	13	0	0	0	0	17.24	0	id254	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	1146536	59	86
+bin.265	k__Bacteria	5449	104	58	81	23	0	0	0	0	31.03	0	id264	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	4018767	59	238
+bin.278	k__Bacteria	5449	104	58	88	16	0	0	0	0	19.75	0	id277	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	776364	60	57
+bin.374	k__Bacteria	5449	104	58	65	37	2	0	0	0	53.33	3.45	id373	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	2992817	59	160
+bin.380	k__Bacteria	2258	187	116	58	123	6	0	0	0	78.04	4.31	id379	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__Terracidiphilus;s__	6135034	57	270
+bin.079	k__Bacteria	2258	187	116	55	130	2	0	0	0	82.13	0.48	id78	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__UBA5172;s__	2853767	59	117
+bin.268	k__Bacteria	2258	187	116	91	94	2	0	0	0	63.58	1.72	id267	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__Acidobacteriaceae;g__UBA5172;s__	2253376	58	68
+bin.109	k__Bacteria	2258	188	117	73	105	10	0	0	0	64.32	6.84	id108	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__SbA1;g__JABCYV01;s__	5308060	56	293
+bin.105	k__Bacteria	2258	188	117	48	139	1	0	0	0	76.01	0.85	id104	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__SbA1;g__JABCZH01;s__	2695154	58	61
+bin.230	k__Bacteria	5449	104	58	15	67	22	0	0	0	93.1	15.52	id229	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__SbA1;g__JABCZH01;s__	6528099	57	189
+bin.324	k__Bacteria	2258	188	117	43	140	5	0	0	0	75.8	2.99	id323	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__SbA1;g__JABCZH01;s__	4559633	57	184
+bin.251	k__Bacteria	2258	188	117	57	131	0	0	0	0	77.67	0	id250	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__SbA1;g__JABDBE01;s__	5240658	57	247
+bin.031	k__Bacteria	5449	104	58	55	29	20	0	0	0	39.66	3.51	id30	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__SbA1;g__Sulfotelmatobacter;s__	2383822	55	144
+bin.088	k__Bacteria	2258	188	117	146	41	1	0	0	0	14.81	0.85	id87	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidobacteriales;f__SbA1;g__Sulfotelmatobacter;s__	880158	58	59
+bin.196	k__Bacteria	5449	104	58	34	29	27	14	0	0	86.21	66.38	id195	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidoferrales;f__UBA7541;g__Acidoferrum;s__	6229290	58	386
+bin.267	k__Bacteria	5449	104	58	81	23	0	0	0	0	31.03	0	id266	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidoferrales;f__UBA7541;g__Acidoferrum;s__	3192449	58	199
+bin.384	k__Bacteria	2258	188	117	16	171	1	0	0	0	94.23	0.85	id383	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidoferrales;f__UBA7541;g__Acidoferrum;s__	5212654	58	60
+bin.074	k__Bacteria	2258	188	117	7	179	2	0	0	0	94.87	1.71	id73	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidoferrales;f__UBA7541;g__Palsa-295;s__	3011235	60	35
+bin.135	k__Bacteria	2258	188	117	67	111	10	0	0	0	69.94	3.23	id134	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Acidoferrales;f__UBA7541;g__Palsa-360;s__	4382958	58	184
+bin.044	k__Bacteria	2258	185	115	5	177	3	0	0	0	95.65	1.74	id43	d__Bacteria;p__Acidobacteriota;c__Acidobacteriae;o__Bryobacterales;f__Bryobacteraceae;g__Palsa-89;s__	5884205	61	23
+bin.194	k__Bacteria	2258	188	117	99	85	4	0	0	0	54.9	2.78	id193	d__Bacteria;p__Acidobacteriota;c__Blastocatellia;o__UBA7656;f__UBA7656;g__;s__	6100334	57	343
+bin.320	root	5656	56	24	56	0	0	0	0	0	0	0	id319	d__Bacteria;p__Acidobacteriota;c__Thermoanaerobaculia;o__UBA5704;f__UBA5704;g__;s__	2284284	70	155
+bin.182	k__Bacteria	901	171	117	132	38	1	0	0	0	19.14	0.85	id181	d__Bacteria;p__Actinobacteriota;c__Acidimicrobiia;o__Acidimicrobiales;f__JAFATL01;g__;s__	1091597	68	77
+bin.106	k__Bacteria	5449	104	58	74	30	0	0	0	0	38.71	0	id105	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__AKYH767;f__Palsa-948_A;g__JABEUT01;s__	1509582	40	101
+bin.110	k__Bacteria	5449	104	58	75	29	0	0	0	0	41.38	0	id109	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__AKYH767;f__Palsa-948_A;g__JABEUT01;s__	2501599	39	132
+bin.141	p__Bacteroidetes	350	316	210	154	115	44	3	0	0	50.95	15.16	id140	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__AKYH767;f__Palsa-948_A;g__JABEUT01;s__	2131573	39	144
+bin.154	p__Bacteroidetes	350	316	210	18	297	1	0	0	0	92.29	0.48	id153	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__AKYH767;f__Palsa-948_A;g__JABEUT01;s__	3311497	39	65
+bin.199	root	5656	56	24	55	1	0	0	0	0	4.17	0	id198	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__AKYH767;f__Palsa-965;g__;s__	1120158	45	80
+bin.256	p__Bacteroidetes	364	303	203	161	140	2	0	0	0	50.64	0.99	id255	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Chitinophagales;f__Chitinophagaceae;g__Ferruginibacter;s__	1788888	35	104
+bin.023	p__Bacteroidetes	364	303	203	104	196	3	0	0	0	66.34	0.74	id22	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Chitinophagales;f__Chitinophagaceae;g__Sediminibacterium;s__	2655371	41	148
+bin.103	p__Bacteroidetes	350	316	210	100	211	5	0	0	0	74.57	1.76	id102	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Mucilaginibacter;s__	3324229	44	148
+bin.290	p__Bacteroidetes	350	316	210	39	274	3	0	0	0	88.68	1.19	id289	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Mucilaginibacter;s__	5812457	41	116
+bin.225	k__Bacteria	2258	182	112	95	85	2	0	0	0	43.07	1.34	id224	d__Bacteria;p__Bdellovibrionota;c__Bdellovibrionia_A;o__UBA1018;f__UBA1018;g__;s__	1945109	49	120
+bin.275	k__Bacteria	2258	181	111	23	157	1	0	0	0	84.38	0.23	id274	d__Bacteria;p__Bdellovibrionota;c__Bdellovibrionia;o__Bdellovibrionales;f__Bdellovibrionaceae;g__;s__	3354120	46	88
+bin.005	k__Bacteria	88	230	148	16	213	1	0	0	0	91.05	0.68	id4	d__Bacteria;p__Chlamydiota;c__Chlamydiia;o__Chlamydiales;f__Rhabdochlamydiaceae;g__CAJCIW01;s__	1977707	44	70
+bin.306	k__Bacteria	88	230	148	50	179	1	0	0	0	74.66	0.23	id305	d__Bacteria;p__Chlamydiota;c__Chlamydiia;o__Chlamydiales;f__Rhabdochlamydiaceae;g__JABDFI01;s__	1287413	50	56
+bin.038	k__Bacteria	88	230	148	167	63	0	0	0	0	28.67	0	id37	d__Bacteria;p__Chlamydiota;c__Chlamydiia;o__Chlamydiales;f__Rhabdochlamydiaceae;g__PALSA-1444;s__	359881	46	27
+bin.247	k__Bacteria	88	230	148	20	209	1	0	0	0	90.37	0.23	id246	d__Bacteria;p__Chlamydiota;c__Chlamydiia;o__Chlamydiales;f__Rhabdochlamydiaceae;g__PALSA-1444;s__	1832225	44	35
+bin.288	k__Bacteria	88	230	148	111	117	2	0	0	0	60.73	0.9	id287	d__Bacteria;p__Chlamydiota;c__Chlamydiia;o__Chlamydiales;f__Rhabdochlamydiaceae;g__PALSA-1444;s__	1267796	44	69
+bin.111	k__Bacteria	5449	104	58	87	17	0	0	0	0	21	0	id110	d__Bacteria;p__Chlamydiota;c__Chlamydiia;o__Chlamydiales;f__SM23-39;g__CAIPFQ01;s__	397881	47	30
+bin.188	k__Bacteria	88	230	148	75	154	1	0	0	0	61.25	0.68	id187	d__Bacteria;p__Chlamydiota;c__Chlamydiia;o__Chlamydiales;f__SM23-39;g__CAIPFQ01;s__	1283915	45	66
+bin.138	k__Bacteria	901	171	117	132	39	0	0	0	0	17.95	0	id137	d__Bacteria;p__Cyanobacteria;c__Vampirovibrionia;o__Obscuribacterales;f__Obscuribacteraceae;g__JABDBL01;s__	762296	44	52
+bin.254	k__Bacteria	138	338	246	175	162	1	0	0	0	40.82	0.41	id253	d__Bacteria;p__Dependentiae;c__Babeliae;o__Babeliales;f__JACPOV01;g__;s__	848151	35	38
+bin.139	k__Bacteria	2993	147	91	88	59	0	0	0	0	31.37	0	id138	d__Bacteria;p__Dependentiae;c__Babeliae;o__Babeliales;f__UBA12411;g__;s__	319933	41	25
+bin.073	k__Bacteria	138	338	246	278	60	0	0	0	0	11.81	0	id72	d__Bacteria;p__Dependentiae;c__Babeliae;o__Babeliales;f__Vermiphilaceae;g__;s__	255271	40	19
+bin.215	k__Bacteria	138	338	246	116	220	2	0	0	0	58.94	0.81	id214	d__Bacteria;p__Dependentiae;c__Babeliae;o__Babeliales;f__Vermiphilaceae;g__;s__	1236816	37	12
+bin.016	root	5656	56	24	56	0	0	0	0	0	0	0	id15	d__Bacteria;p__Dependentiae;c__Babeliae;o__Babeliales;f__Vermiphilaceae;g__SOIL31;s__	421030	43	31
+bin.081	k__Bacteria	5449	104	58	84	20	0	0	0	0	27.59	0	id80	d__Bacteria;p__Dormibacterota;c__Dormibacteria;o__;f__;g__;s__	618824	72	38
+bin.094	k__Bacteria	2993	143	89	61	82	0	0	0	0	60.54	0	id93	d__Bacteria;p__Elusimicrobiota;c__Elusimicrobia;o__UBA1565;f__UBA9628;g__GWA2-66-18;s__	1894182	69	122
+bin.091	k__Bacteria	924	161	108	41	120	0	0	0	0	68.83	0	id90	d__Bacteria;p__Eremiobacterota;c__Eremiobacteria;o__Baltobacterales;f__Baltobacteraceae;g__;s__	3037111	63	141
+bin.180	k__Bacteria	5449	104	58	86	18	0	0	0	0	22.41	0	id179	d__Bacteria;p__Eremiobacterota;c__Eremiobacteria;o__Baltobacterales;f__Baltobacteraceae;g__;s__	766402	64	55
+bin.126	k__Bacteria	924	163	110	88	75	0	0	0	0	52.27	0	id125	d__Bacteria;p__Eremiobacterota;c__Eremiobacteria;o__Baltobacterales;f__Baltobacteraceae;g__Aquilonibacter;s__	2096831	60	117
+bin.086	k__Bacteria	924	161	108	8	153	0	0	0	0	93.52	0	id85	d__Bacteria;p__Eremiobacterota;c__Eremiobacteria;o__Baltobacterales;f__Baltobacteraceae;g__Cybelea;s__	3020129	61	71
+bin.008	k__Bacteria	924	161	108	128	33	0	0	0	0	14.23	0	id7	d__Bacteria;p__Eremiobacterota;c__Eremiobacteria;o__Baltobacterales;f__Baltobacteraceae;g__Velthaea;s__	733703	63	46
+bin.025	k__Bacteria	5449	104	58	95	9	0	0	0	0	10.34	0	id24	d__Bacteria;p__FCPU426;c__JAAXVQ01;o__;f__;g__;s__	234782	67	15
+bin.218	k__Bacteria	5449	104	58	63	40	1	0	0	0	58.97	1.72	id217	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__;s__	2700153	34	135
+bin.301	f__Bacillaceae	128	555	180	6	531	17	1	0	0	97.7	4.64	id300	d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales_B;f__DSM-18226;g__;s__	4228940	40	77
+bin.130	k__Bacteria	2993	147	91	110	37	0	0	0	0	27.52	0	id129	d__Bacteria;p__Gemmatimonadota;c__Gemmatimonadetes;o__Gemmatimonadales;f__Gemmatimonadaceae;g__Fen-1231;s__	2018652	63	116
+bin.187	k__Bacteria	2993	147	91	36	108	3	0	0	0	78.45	2.75	id186	d__Bacteria;p__Gemmatimonadota;c__Gemmatimonadetes;o__Gemmatimonadales;f__Gemmatimonadaceae;g__Fen-1231;s__	3406583	64	127
+bin.313	k__Bacteria	5449	103	57	95	8	0	0	0	0	12.28	0	id312	d__Bacteria;p__Myxococcota;c__Polyangia;o__Palsa-1104_A;f__Fen-1088;g__;s__	1379431	69	94
+bin.302	c__Deltaproteobacteria	83	247	155	171	75	1	0	0	0	21.42	0.65	id301	d__Bacteria;p__Myxococcota;c__Polyangia;o__Polyangiales;f__Polyangiaceae;g__;s__	2276959	68	157
+bin.346	c__Deltaproteobacteria	83	247	155	122	121	4	0	0	0	47.23	2.58	id345	d__Bacteria;p__Myxococcota;c__Polyangia;o__Polyangiales;f__Polyangiaceae;g__Palsa-1150;s__	3162519	70	208
+bin.223	k__Bacteria	2258	181	110	52	127	2	0	0	0	67.67	1.82	id222	d__Bacteria;p__Nitrospirota;c__Nitrospiria;o__Nitrospirales;f__Nitrospiraceae;g__Palsa-1315;s__	2876193	57	149
+bin.178	root	5656	56	24	53	3	0	0	0	0	12.5	0	id177	d__Bacteria;p__Omnitrophota;c__Koll11;o__UBA10015;f__GCA-002753745;g__JABDGZ01;s__	404249	44	29
+bin.323	k__Bacteria	924	151	101	42	109	0	0	0	0	66.39	0	id322	d__Bacteria;p__Patescibacteria;c__Doudnabacteria;o__UBA920;f__UBA920;g__PALSA-1336;s__	987167	45	41
+bin.343	k__Bacteria	924	151	101	30	121	0	0	0	0	72.28	0	id342	d__Bacteria;p__Patescibacteria;c__Doudnabacteria;o__UBA920;f__UBA920;g__PALSA-1336;s__	1026997	45	32
+bin.390	k__Bacteria	5449	100	55	78	22	0	0	0	0	24.55	0	id389	d__Bacteria;p__Patescibacteria;c__Doudnabacteria;o__UBA920;f__UBA920;g__PALSA-1336;s__	284485	46	17
+bin.248	k__Bacteria	924	151	101	34	117	0	0	0	0	70.79	0	id247	d__Bacteria;p__Patescibacteria;c__Doudnabacteria;o__UBA920;f__VMFF01;g__;s__	799708	56	7
+bin.214	k__Bacteria	924	151	101	42	109	0	0	0	0	63.53	0	id213	d__Bacteria;p__Patescibacteria;c__Microgenomatia;o__GWA2-44-7;f__UBA8517;g__;s__	858405	37	5
+bin.112	k__Bacteria	2258	181	110	133	48	0	0	0	0	22.53	0	id111	d__Bacteria;p__Patescibacteria;c__Microgenomatia;o__Levybacterales;f__UBA12049;g__JACDET01;s__	418135	36	32
+bin.157	k__Bacteria	924	151	101	83	68	0	0	0	0	52.97	0	id156	d__Bacteria;p__Patescibacteria;c__Microgenomatia;o__Levybacterales;f__UBA12049;g__JACDET01;s__	1343062	36	42
+bin.161	k__Bacteria	924	151	101	43	107	1	0	0	0	63.04	0.99	id160	d__Bacteria;p__Patescibacteria;c__Microgenomatia;o__Levybacterales;f__UBA12049;g__JACDET01;s__	1412158	37	44
+bin.232	k__Bacteria	924	151	101	34	115	2	0	0	0	69.11	0.99	id231	d__Bacteria;p__Patescibacteria;c__Microgenomatia;o__Levybacterales;f__UBA12049;g__JACDET01;s__	1915058	36	65
+bin.252	k__Bacteria	924	151	101	39	112	0	0	0	0	65.35	0	id251	d__Bacteria;p__Patescibacteria;c__Microgenomatia;o__Levybacterales;f__UBA12049;g__JACDET01;s__	1535801	37	34
+bin.284	k__Bacteria	924	151	101	36	115	0	0	0	0	67	0	id283	d__Bacteria;p__Patescibacteria;c__Microgenomatia;o__Levybacterales;f__UBA12049;g__JACDET01;s__	1715234	36	54
+bin.303	k__Bacteria	924	151	101	98	53	0	0	0	0	21.2	0	id302	d__Bacteria;p__Patescibacteria;c__Microgenomatia;o__Levybacterales;f__UBA12049;g__JACDET01;s__	368112	40	11
+bin.379	k__Bacteria	924	151	101	50	101	0	0	0	0	56.83	0	id378	d__Bacteria;p__Patescibacteria;c__Microgenomatia;o__Levybacterales;f__UBA12049;g__JACDET01;s__	1403377	37	57
+bin.189	k__Bacteria	924	151	101	94	57	0	0	0	0	27.23	0	id188	d__Bacteria;p__Patescibacteria;c__Microgenomatia;o__Levybacterales;f__UBA12049;g__PJMG01;s__	576127	33	38
+bin.146	k__Bacteria	924	151	101	52	99	0	0	0	0	57.92	0	id145	d__Bacteria;p__Patescibacteria;c__Microgenomatia;o__Levybacterales;f__UBA12049;g__PPGL01;s__	901064	36	28
+bin.015	k__Bacteria	924	161	108	54	107	0	0	0	0	55.99	0	id14	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__;s__	857475	54	17
+bin.035	k__Bacteria	5449	104	58	84	20	0	0	0	0	30.17	0	id34	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__;s__	253467	50	16
+bin.065	k__Bacteria	924	151	101	43	107	1	0	0	0	62.18	0.99	id64	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__;s__	944814	51	6
+bin.075	k__Bacteria	5449	100	55	73	26	1	0	0	0	34.18	1.82	id74	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__;s__	487616	51	27
+bin.077	k__Bacteria	924	151	101	65	85	1	0	0	0	44.16	0.17	id76	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__;s__	648626	53	23
+bin.202	k__Bacteria	5449	104	58	33	71	0	0	0	0	68.97	0	id201	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__;s__	729954	50	11
+bin.220	k__Bacteria	5449	104	58	80	21	3	0	0	0	32.76	2.59	id219	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__;s__	310080	49	11
+bin.236	k__Bacteria	2993	143	89	23	120	0	0	0	0	76.78	0	id235	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__;s__	821228	53	5
+bin.298	k__Bacteria	901	171	117	66	104	1	0	0	0	53.39	0.85	id297	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__;s__	893440	52	7
+bin.362	k__Bacteria	924	151	101	50	101	0	0	0	0	59.21	0	id361	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__;s__	751426	51	12
+bin.376	k__Bacteria	924	151	101	44	105	2	0	0	0	61.19	0.99	id375	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__;s__	910363	51	12
+bin.006	k__Bacteria	901	171	117	92	79	0	0	0	0	32.74	0	id5	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__CAJAQL01;s__	479460	52	25
+bin.011	k__Bacteria	924	151	101	41	109	1	0	0	0	63.66	0.99	id10	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__CAJAQL01;s__	859610	52	4
+bin.040	k__Bacteria	924	151	101	51	94	6	0	0	0	56.7	4.13	id39	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__CAJAQL01;s__	889533	52	36
+bin.047	k__Bacteria	901	171	117	73	93	5	0	0	0	49.26	4.27	id46	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__CAJAQL01;s__	765022	51	36
+bin.061	k__Bacteria	901	171	117	54	115	2	0	0	0	60.23	1.71	id60	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__CAJAQL01;s__	876684	51	11
+bin.093	k__Bacteria	924	151	101	67	82	2	0	0	0	46.24	0.66	id92	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__CAJAQL01;s__	791972	49	31
+bin.115	k__Bacteria	901	171	117	59	112	0	0	0	0	54.39	0	id114	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__CAJAQL01;s__	823169	51	12
+bin.172	k__Bacteria	5449	104	58	55	49	0	0	0	0	37.07	0	id171	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__CAJAQL01;s__	513314	52	14
+bin.191	k__Bacteria	901	171	117	58	111	2	0	0	0	55.95	0.57	id190	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__CAJAQL01;s__	815219	53	6
+bin.274	k__Bacteria	924	151	101	44	107	0	0	0	0	61.68	0	id273	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA6257;f__2-01-FULL-56-20;g__CAJAQL01;s__	845825	48	4
+bin.064	k__Bacteria	901	171	117	105	65	1	0	0	0	37.15	0.85	id63	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA9983_A;f__PALSA-1337;g__PALSA-1337;s__	496326	51	24
+bin.089	k__Bacteria	5449	104	58	14	90	0	0	0	0	81.87	0	id88	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA9983_A;f__PALSA-1337;g__PALSA-1337;s__	760372	50	15
+bin.335	k__Bacteria	901	171	117	51	119	1	0	0	0	62.05	0.85	id334	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA9983_A;f__SBAW01;g__GWA1-54-10;s__	786676	52	14
+bin.021	k__Bacteria	5449	104	58	70	34	0	0	0	0	36.73	0	id20	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA9983_A;f__UBA2100;g__UBA10103;s__	425860	53	27
+bin.200	k__Bacteria	2993	143	89	79	64	0	0	0	0	40.3	0	id199	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA9983_A;f__UBA2100;g__UBA10103;s__	446941	55	30
+bin.226	k__Bacteria	901	171	117	45	126	0	0	0	0	65.93	0	id225	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA9983_A;f__UBA2100;g__UBA10103;s__	1113774	56	20
+bin.269	k__Bacteria	901	171	117	40	131	0	0	0	0	68.77	0	id268	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA9983_A;f__UBA2100;g__UBA10103;s__	950874	54	11
+bin.282	k__Bacteria	2993	143	89	31	112	0	0	0	0	74.58	0	id281	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA9983_A;f__UBA2100;g__UBA10103;s__	905588	55	28
+bin.333	k__Bacteria	901	171	117	40	129	2	0	0	0	69.63	0.57	id332	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA9983_A;f__UBA2103;g__1-14-0-10-45-20;s__	745245	47	7
+bin.002	k__Bacteria	5449	104	58	29	75	0	0	0	0	62.43	0	id1	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA9983_A;f__UBA2103;g__C7867-001;s__	552975	57	22
+bin.310	k__Bacteria	901	171	117	92	79	0	0	0	0	37.44	0	id309	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA9983_A;f__UBA2103;g__C7867-001;s__	406024	51	16
+bin.363	k__Bacteria	5449	104	58	17	87	0	0	0	0	76.15	0	id362	d__Bacteria;p__Patescibacteria;c__Paceibacteria;o__UBA9983_A;f__UBA6065;g__;s__	539811	52	14
+bin.129	k__Bacteria	5449	104	58	72	32	0	0	0	0	49.14	0	id128	d__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__UBA4665;g__;s__	772366	53	34
+bin.153	k__Bacteria	901	171	117	127	44	0	0	0	0	17.52	0	id152	d__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__UBA4665;g__;s__	358237	51	18
+bin.159	k__Bacteria	5449	104	58	79	24	1	0	0	0	36.21	1.72	id158	d__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__UBA4665;g__;s__	1030251	48	54
+bin.238	k__Bacteria	174	149	89	33	116	0	0	0	0	68.99	0	id237	d__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__UBA4665;g__;s__	1366729	43	47
+bin.245	k__Bacteria	924	161	108	76	85	0	0	0	0	50.8	0	id244	d__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__UBA4665;g__;s__	558844	41	32
+bin.307	k__Bacteria	5449	104	58	73	31	0	0	0	0	44.98	0	id306	d__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__UBA4665;g__;s__	808416	44	42
+bin.371	k__Bacteria	924	161	108	45	115	1	0	0	0	64.66	0.93	id370	d__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__UBA4665;g__;s__	1135215	53	24
+bin.201	k__Bacteria	5449	104	58	78	25	1	0	0	0	36.21	1.72	id200	d__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__UBA4665;g__CAJCIR01;s__	384493	42	24
+bin.242	k__Bacteria	5449	104	58	36	35	33	0	0	0	49.84	10.5	id241	d__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__UBA4665;g__PMNU01;s__	506537	47	21
+bin.014	k__Bacteria	924	161	108	30	130	1	0	0	0	74.54	0.93	id13	d__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__UBA4665;g__UBA5150;s__	1024416	46	17
+bin.184	k__Bacteria	901	171	117	126	45	0	0	0	0	19.32	0	id183	d__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__UBA4665;g__UBA5150;s__	213715	46	13
+bin.372	k__Bacteria	924	161	108	121	39	1	0	0	0	25.35	0.46	id371	d__Bacteria;p__Patescibacteria;c__Saccharimonadia;o__Saccharimonadales;f__UBA4665;g__UBA5150;s__	325898	44	17
+bin.165	k__Bacteria	5449	104	58	99	5	0	0	0	0	6.9	0	id164	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__;s__	225984	63	18
+bin.338	k__Bacteria	5449	104	58	74	30	0	0	0	0	30.25	0	id337	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__Rhodopila;s__	1720356	63	103
+bin.116	root	5656	56	24	55	1	0	0	0	0	4.17	0	id115	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__ATCC43930;f__Stellaceae;g__Aliidongia;s__	1105664	65	84
+bin.208	c__Alphaproteobacteria	564	349	230	280	69	0	0	0	0	16.13	0	id207	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__ATCC43930;f__Stellaceae;g__Aliidongia;s__	1097727	66	81
+bin.117	k__Bacteria	5449	104	58	86	18	0	0	0	0	28.45	0	id116	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__ATCC43930;f__Stellaceae;g__AP-15;s__	2423062	63	163
+bin.213	k__Bacteria	5449	104	58	86	18	0	0	0	0	28.45	0	id212	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__ATCC43930;f__Stellaceae;g__AP-15;s__	2526767	64	173
+bin.318	c__Alphaproteobacteria	564	349	230	274	75	0	0	0	0	13.45	0	id317	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__ATCC43930;f__Stellaceae;g__AP-15;s__	880860	64	67
+bin.137	k__Bacteria	5449	104	58	77	27	0	0	0	0	41.38	0	id136	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__BOG-932;f__BOG-932;g__BOG-932;s__	1903139	63	117
+bin.259	k__Bacteria	5449	104	58	70	34	0	0	0	0	49.71	0	id258	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Caulobacterales;f__Caulobacteraceae;g__Palsa-881;s__	3138124	69	163
+bin.193	k__Bacteria	5449	104	58	63	41	0	0	0	0	62.07	0	id192	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Elsterales;f__Elsteraceae;g__JACQAI01;s__	4198701	68	219
+bin.087	c__Alphaproteobacteria	564	349	230	35	307	7	0	0	0	94.41	2.32	id86	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Micropepsales;f__Micropepsaceae;g__Rhizomicrobium;s__	4782528	62	94
+bin.169	root	5656	56	24	53	3	0	0	0	0	12.5	0	id168	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Micropepsales;f__Micropepsaceae;g__Rhizomicrobium;s__	255381	62	21
+bin.171	k__Bacteria	5449	104	58	86	14	4	0	0	0	25.86	6.9	id170	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Micropepsales;f__Micropepsaceae;g__Rhizomicrobium;s__	1319316	62	95
+bin.224	k__Bacteria	5449	104	58	91	13	0	0	0	0	20.69	0	id223	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Reyranellales;f__Reyranellaceae;g__Reyranella;s__	993622	66	80
+bin.052	o__Rhizobiales	92	481	319	387	94	0	0	0	0	18.42	0	id51	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Beijerinckiaceae;g__Roseiarcus;s__	871257	63	62
+bin.366	o__Rhizobiales	107	485	316	220	245	20	0	0	0	48.21	3.46	id365	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Xanthobacteraceae;g__BOG-931;s__	2373264	63	139
+bin.150	k__Bacteria	5449	104	58	91	13	0	0	0	0	22.41	0	id149	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Xanthobacteraceae;g__Bradyrhizobium;s__	2534701	61	122
+bin.367	o__Rhizobiales	107	485	316	23	459	3	0	0	0	94.07	0.95	id366	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Xanthobacteraceae;g__Pseudolabrys;s__	3210759	61	18
+bin.009	o__Rhodospirillales	63	336	201	45	290	1	0	0	0	97.19	0.5	id8	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Magnetospirillaceae;g__;s__	5796532	64	53
+bin.019	k__Bacteria	5449	104	58	55	28	19	2	0	0	74.14	34.48	id18	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Magnetospirillaceae;g__;s__	7771968	64	299
+bin.229	o__Rhodospirillales	63	336	201	46	281	9	0	0	0	92.75	3.15	id228	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Magnetospirillaceae;g__;s__	5209605	65	81
+bin.174	k__Bacteria	2993	147	91	0	147	0	0	0	0	100	0	id173	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rickettsiales;f__JABCZZ01;g__JABCZZ01;s__	2933646	57	35
+bin.250	root	5656	56	24	53	3	0	0	0	0	12.5	0	id249	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rickettsiales;f__JABCZZ01;g__JABCZZ01;s__	273565	51	20
+bin.273	k__Bacteria	5449	104	58	94	10	0	0	0	0	13.79	0	id272	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Novosphingobium;s__	993840	65	80
+bin.167	c__Alphaproteobacteria	564	348	229	11	335	2	0	0	0	95.2	0.87	id166	d__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__UBA9219;f__UBA9219;g__;s__	2082496	59	6
+bin.300	k__Bacteria	5449	104	58	69	25	10	0	0	0	50	17.24	id299	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Caballeronia;s__	16373422	61	797
+bin.217	o__Burkholderiales	107	574	251	54	512	8	0	0	0	92.03	1.16	id216	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Collimonas;s__	5061089	60	109
+bin.361	k__Bacteria	5449	104	58	79	25	0	0	0	0	39.66	0	id360	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Collimonas;s__	1966758	55	118
+bin.100	k__Bacteria	5449	104	58	67	37	0	0	0	0	55.17	0	id99	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Pandoraea;s__	3447799	62	208
+bin.107	o__Burkholderiales	107	574	251	1	565	7	1	0	0	99.95	1.92	id106	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Paraburkholderia;s__	8509849	65	112
+bin.127	k__Bacteria	5449	103	57	98	5	0	0	0	0	7.02	0	id126	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Paraburkholderia;s__	1158060	62	86
+bin.160	k__Bacteria	5449	104	58	91	13	0	0	0	0	16.55	0	id159	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Paraburkholderia;s__	599726	61	36
+bin.370	k__Bacteria	5449	103	57	87	16	0	0	0	0	25.44	0	id369	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Paraburkholderia;s__	6003595	62	205
+bin.308	o__Burkholderiales	107	574	251	132	437	5	0	0	0	80.16	1.99	id307	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__PKWO01;s__	5618824	59	235
+bin.381	k__Bacteria	5449	104	58	88	15	1	0	0	0	24.14	1.72	id380	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__PKWO01;s__	1440627	55	113
+bin.271	c__Gammaproteobacteria	1097	270	172	27	226	16	1	0	0	87.69	6.1	id270	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__DSM-16500;f__DSM-16500;g__;s__	2788088	40	101
+bin.353	k__Bacteria	5449	104	58	94	10	0	0	0	0	15.52	0	id352	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__DSM-16500;f__DSM-16500;g__;s__	303796	40	23
+bin.049	k__Bacteria	5449	104	58	72	32	0	0	0	0	51.72	0	id48	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__DSM-16500;f__DSM-16500;g__JABDEM01;s__	2166718	38	120
+bin.337	k__Bacteria	5449	104	58	21	63	19	1	0	0	77.9	10.5	id336	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__DSM-16500;f__DSM-16500;g__JABDEM01;s__	1853185	40	87
+bin.012	k__Bacteria	5449	104	58	89	15	0	0	0	0	22.41	0	id11	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__DSM-16500;f__DSM-16500;g__JABDGC01;s__	318863	47	21
+bin.286	f__Enterobacteriaceae	55	546	224	326	216	4	0	0	0	44.89	1.23	id285	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae;g__Acerihabitans;s__	2572391	54	14
+bin.355	k__Bacteria	2993	147	91	82	65	0	0	0	0	58.24	0	id354	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae;g__Acerihabitans;s__	2611432	53	19
+bin.340	f__Enterobacteriaceae	223	876	305	67	808	1	0	0	0	96.37	0.07	id339	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae;g__Rahnella;s__Rahnella laticis	5193581	53	50
+bin.076	root	5656	56	24	53	3	0	0	0	0	12.5	0	id75	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__LLD-282;f__;g__;s__	2256912	36	9
+bin.241	o__Pseudomonadales	185	813	308	224	578	11	0	0	0	73.15	0.6	id240	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas_E;s__Pseudomonas_E sp002814235	5362264	62	256
+bin.029	k__Bacteria	5449	104	58	57	46	1	0	0	0	63.79	1.72	id28	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__;s__	2826378	65	153
+bin.216	c__Gammaproteobacteria	67	481	276	346	135	0	0	0	0	26.6	0	id215	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__;s__	1761909	64	111
+bin.186	k__Bacteria	5449	104	58	70	34	0	0	0	0	50	0	id185	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__13-2-20CM-66-19;s__	1518176	67	96
+bin.235	root	5656	56	24	56	0	0	0	0	0	0	0	id234	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__13-2-20CM-66-19;s__	1288976	63	92
+bin.063	c__Gammaproteobacteria	67	481	276	76	385	17	3	0	0	92.54	6.56	id62	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__Bog-1198;s__	5798954	60	67
+bin.102	c__Gammaproteobacteria	67	481	276	381	100	0	0	0	0	20.38	0	id101	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__Bog-1198;s__	1717194	64	110
+bin.113	c__Gammaproteobacteria	67	481	276	194	273	14	0	0	0	58.63	4.62	id112	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__Bog-1198;s__	3732233	63	210
+bin.145	c__Gammaproteobacteria	67	481	276	93	161	160	58	8	1	79.39	68.79	id144	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__Bog-1198;s__	9374657	61	501
+bin.231	k__Bacteria	5449	104	58	96	8	0	0	0	0	12.23	0	id230	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__Bog-1198;s__	785522	64	57
+bin.244	c__Gammaproteobacteria	1164	275	174	229	44	2	0	0	0	15.93	0.29	id243	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__Bog-1198;s__	1975647	59	140
+bin.253	k__Bacteria	5449	104	58	98	6	0	0	0	0	8.62	0	id252	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__Bog-1198;s__	412443	63	31
+bin.354	k__Bacteria	5449	104	58	97	7	0	0	0	0	10.34	0	id353	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__Bog-1198;s__	2743218	62	165
+bin.345	root	5656	56	24	55	1	0	0	0	0	4.17	0	id344	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__FEN-1191;s__	265355	65	20
+bin.017	k__Bacteria	5449	104	58	91	13	0	0	0	0	20.69	0	id16	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__UBA6186;f__UBA6186;g__;s__	331152	39	24
+bin.143	f__Xanthomonadaceae	55	659	290	158	493	8	0	0	0	78.4	0.77	id142	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Xanthomonadales;f__Rhodanobacteraceae;g__Dyella_B;s__	3441294	62	144
+bin.205	k__Bacteria	5449	104	58	82	22	0	0	0	0	32.76	0	id204	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Xanthomonadales;f__Rhodanobacteraceae;g__Dyella_B;s__	2609753	64	142
+bin.292	k__Bacteria	5449	104	58	87	17	0	0	0	0	27.59	0	id291	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Xanthomonadales;f__Rhodanobacteraceae;g__Dyella_B;s__	2041409	59	118
+bin.148	k__Bacteria	88	230	148	11	213	6	0	0	0	93.92	2.74	id147	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Methylacidiphilales;f__UBA1321;g__JABDGH01;s__	3350523	58	107
+bin.041	k__Bacteria	5449	101	57	92	9	0	0	0	0	10.88	0	id40	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__	334728	61	21
+bin.054	k__Bacteria	5449	101	57	49	30	22	0	0	0	76.84	35.09	id53	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__	5307346	59	240
+bin.071	k__Bacteria	5449	101	57	88	13	0	0	0	0	19.3	0	id70	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__	653620	62	48
+bin.090	k__Bacteria	5449	101	57	89	11	1	0	0	0	16.67	0.88	id89	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__	2836154	59	166
+bin.164	k__Bacteria	88	227	146	44	177	6	0	0	0	88.67	1.92	id163	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__	3044681	61	92
+bin.175	k__Bacteria	5449	101	57	79	22	0	0	0	0	29.11	0	id174	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__	1258859	61	75
+bin.204	k__Bacteria	88	227	146	61	162	4	0	0	0	88.36	2.74	id203	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__	3454749	60	101
+bin.212	root	5656	56	24	55	1	0	0	0	0	4.17	0	id211	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__	723069	59	45
+bin.233	root	5656	56	24	54	2	0	0	0	0	8.33	0	id232	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__	905326	60	66
+bin.249	k__Bacteria	88	227	146	100	125	2	0	0	0	67.61	1.37	id248	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__	2510234	60	107
+bin.297	k__Bacteria	88	227	146	1	225	1	0	0	0	99.32	0.68	id296	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__;s__	3092834	58	65
+bin.185	root	5656	56	24	54	2	0	0	0	0	8.33	0	id184	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__Lacunisphaera;s__Lacunisphaera sp900104925	852511	66	58
+bin.007	k__Bacteria	88	227	146	24	201	2	0	0	0	95.28	1.37	id6	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__Palsa-1447;s__	3079225	66	27
+bin.082	k__Bacteria	88	227	146	3	224	0	0	0	0	97.95	0	id81	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__Palsa-1447;s__	2286246	63	16
+bin.084	k__Bacteria	5449	101	57	89	12	0	0	0	0	17.54	0	id83	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__Palsa-1447;s__	957133	64	62
+bin.347	k__Bacteria	5449	101	57	87	14	0	0	0	0	21.05	0	id346	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Opitutaceae;g__Palsa-1447;s__	835747	65	46
+bin.312	k__Bacteria	5449	104	58	75	29	0	0	0	0	38.4	0	id311	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Pedosphaerales;f__Palsa-1400;g__Palsa-1400;s__	2430095	56	158
+bin.240	k__Bacteria	5449	104	58	83	21	0	0	0	0	25	0	id239	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Pedosphaerales;f__UBA11358;g__PLZL01;s__	471692	55	35
+bin.070	k__Bacteria	88	230	148	6	222	2	0	0	0	96.96	1.35	id69	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Pedosphaerales;f__UBA11358;g__UBA11358;s__	2635552	54	41
+bin.072	k__Bacteria	88	230	148	4	224	2	0	0	0	97.3	1.35	id71	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Pedosphaerales;f__UBA11358;g__UBA11358;s__	2975636	55	32
+bin.096	k__Bacteria	88	230	148	137	93	0	0	0	0	39.29	0	id95	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Pedosphaerales;f__UBA11358;g__UBA11358;s__	1323151	56	81
+bin.136	k__Bacteria	88	230	148	84	143	3	0	0	0	65.31	1.49	id135	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Pedosphaerales;f__UBA11358;g__UBA11358;s__	3121032	55	146
+bin.142	k__Bacteria	88	230	148	12	215	3	0	0	0	92.91	1.69	id141	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Pedosphaerales;f__UBA11358;g__UBA11358;s__	4062039	53	65
+bin.341	k__Bacteria	88	230	148	4	222	4	0	0	0	97.3	1.82	id340	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Pedosphaerales;f__UBA11358;g__UBA11358;s__	2293813	54	17
+bin.010	root	5656	56	24	56	0	0	0	0	0	0	0	id9	Unclassified	1044324	55	57
+bin.018	root	5656	56	24	56	0	0	0	0	0	0	0	id17	Unclassified	391513	55	13
+bin.020	root	5656	56	24	56	0	0	0	0	0	0	0	id19	Unclassified	246007	59	4
+bin.026	root	5656	56	24	56	0	0	0	0	0	0	0	id25	Unclassified	283032	57	8
+bin.028	root	5656	56	24	56	0	0	0	0	0	0	0	id27	Unclassified	228777	62	16
+bin.032	root	5656	56	24	56	0	0	0	0	0	0	0	id31	Unclassified	231233	54	10
+bin.036	root	5656	56	24	56	0	0	0	0	0	0	0	id35	Unclassified	209693	56	7
+bin.053	root	5656	56	24	56	0	0	0	0	0	0	0	id52	Unclassified	433681	54	20
+bin.057	root	5656	56	24	56	0	0	0	0	0	0	0	id56	Unclassified	227041	59	11
+bin.062	root	5656	56	24	56	0	0	0	0	0	0	0	id61	Unclassified	262981	35	20
+bin.067	root	5656	56	24	56	0	0	0	0	0	0	0	id66	Unclassified	272971	55	13
+bin.068	k__Archaea	207	149	107	136	13	0	0	0	0	1.73	0	id67	Unclassified	597464	49	16
+bin.080	root	5656	56	24	56	0	0	0	0	0	0	0	id79	Unclassified	231903	69	11
+bin.095	root	5656	56	24	56	0	0	0	0	0	0	0	id94	Unclassified	506950	58	22
+bin.122	root	5656	56	24	56	0	0	0	0	0	0	0	id121	Unclassified	684193	57	29
+bin.123	root	5656	56	24	56	0	0	0	0	0	0	0	id122	Unclassified	308899	40	21
+bin.124	k__Bacteria	5449	104	58	101	3	0	0	0	0	0.47	0	id123	Unclassified	221106	51	2
+bin.133	root	5656	56	24	56	0	0	0	0	0	0	0	id132	Unclassified	642216	54	41
+bin.144	k__Bacteria	5449	104	58	100	4	0	0	0	0	0.63	0	id143	Unclassified	202251	61	3
+bin.147	root	5656	56	24	56	0	0	0	0	0	0	0	id146	Unclassified	211048	68	10
+bin.173	root	5656	56	24	56	0	0	0	0	0	0	0	id172	Unclassified	611456	55	21
+bin.203	root	5656	56	24	56	0	0	0	0	0	0	0	id202	Unclassified	256399	50	1
+bin.210	root	5656	56	24	55	1	0	0	0	0	4.17	0	id209	Unclassified	536025	34	23
+bin.211	root	5656	56	24	56	0	0	0	0	0	0	0	id210	Unclassified	260912	51	1
+bin.219	root	5656	56	24	56	0	0	0	0	0	0	0	id218	Unclassified	209277	61	8
+bin.227	root	5656	56	24	56	0	0	0	0	0	0	0	id226	Unclassified	404666	54	17
+bin.228	root	5656	56	24	56	0	0	0	0	0	0	0	id227	Unclassified	204262	31	1
+bin.239	root	5656	56	24	56	0	0	0	0	0	0	0	id238	Unclassified	230433	59	8
+bin.258	root	5656	56	24	56	0	0	0	0	0	0	0	id257	Unclassified	252242	56	17
+bin.261	root	5656	56	24	56	0	0	0	0	0	0	0	id260	Unclassified	398206	32	23
+bin.272	root	5656	56	24	56	0	0	0	0	0	0	0	id271	Unclassified	222202	57	11
+bin.280	root	5656	56	24	56	0	0	0	0	0	0	0	id279	Unclassified	231626	56	12
+bin.283	root	5656	56	24	56	0	0	0	0	0	0	0	id282	Unclassified	221408	57	14
+bin.285	root	5656	56	24	56	0	0	0	0	0	0	0	id284	Unclassified	243077	63	19
+bin.317	root	5656	56	24	56	0	0	0	0	0	0	0	id316	Unclassified	403026	56	26
+bin.321	root	5656	56	24	56	0	0	0	0	0	0	0	id320	Unclassified	246622	57	12
+bin.322	root	5656	56	24	56	0	0	0	0	0	0	0	id321	Unclassified	283013	35	8
+bin.326	root	5656	56	24	56	0	0	0	0	0	0	0	id325	Unclassified	289510	26	6
+bin.327	root	5656	56	24	56	0	0	0	0	0	0	0	id326	Unclassified	732132	57	33
+bin.329	k__Bacteria	5449	104	58	102	2	0	0	0	0	0.31	0	id328	Unclassified	303502	46	16
+bin.330	root	5656	56	24	56	0	0	0	0	0	0	0	id329	Unclassified	341406	58	7
+bin.331	root	5656	56	24	56	0	0	0	0	0	0	0	id330	Unclassified	274576	60	17
+bin.332	root	5656	56	24	56	0	0	0	0	0	0	0	id331	Unclassified	247292	49	5
+bin.336	root	5656	56	24	56	0	0	0	0	0	0	0	id335	Unclassified	423719	57	25
+bin.339	root	5656	56	24	56	0	0	0	0	0	0	0	id338	Unclassified	252288	62	20
+bin.357	k__Archaea	207	149	107	141	8	0	0	0	0	0.81	0	id356	Unclassified	205039	62	9
+bin.359	root	5656	56	24	56	0	0	0	0	0	0	0	id358	Unclassified	248257	56	13
+bin.377	k__Bacteria	5449	104	58	102	2	0	0	0	0	0.31	0	id376	Unclassified	308315	53	1
+bin.385	root	5656	56	24	56	0	0	0	0	0	0	0	id384	Unclassified	228879	58	3
+bin.387	root	5656	56	24	56	0	0	0	0	0	0	0	id386	Unclassified	263593	38	2
+bin.001	k__Archaea	207	149	107	140	9	0	0	0	0	1.83	0	id0	Unclassified Archaea	284957	47	5
+bin.027	k__Archaea	207	149	107	140	9	0	0	0	0	5.06	0	id26	Unclassified Archaea	315037	29	14
+bin.168	k__Archaea	207	149	107	138	11	0	0	0	0	1.43	0	id167	Unclassified Archaea	530022	39	21
+bin.291	k__Archaea	207	149	107	138	11	0	0	0	0	2.44	0	id290	Unclassified Archaea	1480828	51	29
+bin.305	k__Archaea	207	149	107	130	18	1	0	0	0	5.78	0.07	id304	Unclassified Archaea	590346	26	16
+bin.003	root	5656	56	24	56	0	0	0	0	0	0	0	id2	Unclassified Bacteria	551857	29	3
+bin.013	root	5656	56	24	56	0	0	0	0	0	0	0	id12	Unclassified Bacteria	216413	49	1
+bin.022	root	5656	56	24	56	0	0	0	0	0	0	0	id21	Unclassified Bacteria	314982	61	15
+bin.024	root	5656	56	24	56	0	0	0	0	0	0	0	id23	Unclassified Bacteria	560464	39	13
+bin.030	root	5656	56	24	56	0	0	0	0	0	0	0	id29	Unclassified Bacteria	455770	53	14
+bin.037	root	5656	56	24	56	0	0	0	0	0	0	0	id36	Unclassified Bacteria	423492	63	27
+bin.039	root	5656	56	24	56	0	0	0	0	0	0	0	id38	Unclassified Bacteria	359506	34	4
+bin.042	root	5656	56	24	56	0	0	0	0	0	0	0	id41	Unclassified Bacteria	250685	58	4
+bin.045	root	5656	56	24	54	2	0	0	0	0	8.33	0	id44	Unclassified Bacteria	815695	58	56
+bin.046	root	5656	56	24	56	0	0	0	0	0	0	0	id45	Unclassified Bacteria	365350	70	30
+bin.048	k__Bacteria	5449	104	58	103	1	0	0	0	0	1.72	0	id47	Unclassified Bacteria	365122	57	28
+bin.050	k__Bacteria	5449	104	58	101	3	0	0	0	0	5.17	0	id49	Unclassified Bacteria	1166485	54	46
+bin.051	root	5656	56	24	56	0	0	0	0	0	0	0	id50	Unclassified Bacteria	234801	55	8
+bin.055	k__Bacteria	5449	104	58	100	4	0	0	0	0	6.9	0	id54	Unclassified Bacteria	449452	65	35
+bin.056	root	5656	56	24	56	0	0	0	0	0	0	0	id55	Unclassified Bacteria	224688	41	1
+bin.058	root	5656	56	24	56	0	0	0	0	0	0	0	id57	Unclassified Bacteria	329234	63	24
+bin.059	root	5656	56	24	56	0	0	0	0	0	0	0	id58	Unclassified Bacteria	631441	57	36
+bin.060	root	5656	56	24	56	0	0	0	0	0	0	0	id59	Unclassified Bacteria	239457	42	18
+bin.066	root	5656	56	24	56	0	0	0	0	0	0	0	id65	Unclassified Bacteria	301117	65	24
+bin.069	root	5656	56	24	56	0	0	0	0	0	0	0	id68	Unclassified Bacteria	215013	60	12
+bin.078	root	5656	56	24	56	0	0	0	0	0	0	0	id77	Unclassified Bacteria	551848	66	40
+bin.083	root	5656	56	24	56	0	0	0	0	0	0	0	id82	Unclassified Bacteria	393334	45	1
+bin.098	root	5656	56	24	56	0	0	0	0	0	0	0	id97	Unclassified Bacteria	359570	60	26
+bin.099	root	5656	56	24	56	0	0	0	0	0	0	0	id98	Unclassified Bacteria	346597	46	1
+bin.104	root	5656	56	24	56	0	0	0	0	0	0	0	id103	Unclassified Bacteria	338143	57	2
+bin.108	root	5656	56	24	56	0	0	0	0	0	0	0	id107	Unclassified Bacteria	491046	52	30
+bin.114	root	5656	56	24	54	1	1	0	0	0	8.33	4.17	id113	Unclassified Bacteria	297222	43	21
+bin.118	k__Bacteria	5449	104	58	98	6	0	0	0	0	8.62	0	id117	Unclassified Bacteria	303335	65	24
+bin.120	root	5656	56	24	56	0	0	0	0	0	0	0	id119	Unclassified Bacteria	326944	58	25
+bin.121	root	5656	56	24	56	0	0	0	0	0	0	0	id120	Unclassified Bacteria	734265	63	50
+bin.125	root	5656	56	24	56	0	0	0	0	0	0	0	id124	Unclassified Bacteria	815872	62	58
+bin.128	root	5656	56	24	56	0	0	0	0	0	0	0	id127	Unclassified Bacteria	251543	62	19
+bin.131	k__Bacteria	5449	104	58	94	10	0	0	0	0	12.54	0	id130	Unclassified Bacteria	570942	58	44
+bin.140	root	5656	56	24	56	0	0	0	0	0	0	0	id139	Unclassified Bacteria	348160	62	26
+bin.149	root	5656	56	24	56	0	0	0	0	0	0	0	id148	Unclassified Bacteria	222389	61	18
+bin.151	root	5656	56	24	56	0	0	0	0	0	0	0	id150	Unclassified Bacteria	269431	36	14
+bin.152	root	5656	56	24	56	0	0	0	0	0	0	0	id151	Unclassified Bacteria	331747	63	25
+bin.155	root	5656	56	24	55	1	0	0	0	0	4.17	0	id154	Unclassified Bacteria	994861	62	73
+bin.156	root	5656	56	24	54	2	0	0	0	0	8.33	0	id155	Unclassified Bacteria	1319147	65	91
+bin.162	root	5656	56	24	56	0	0	0	0	0	0	0	id161	Unclassified Bacteria	314017	63	24
+bin.166	root	5656	56	24	56	0	0	0	0	0	0	0	id165	Unclassified Bacteria	213665	62	17
+bin.170	k__Bacteria	5449	104	58	96	8	0	0	0	0	10.34	0	id169	Unclassified Bacteria	321414	63	27
+bin.176	root	5656	56	24	56	0	0	0	0	0	0	0	id175	Unclassified Bacteria	265370	58	21
+bin.177	root	5656	56	24	56	0	0	0	0	0	0	0	id176	Unclassified Bacteria	311603	61	24
+bin.179	root	5656	56	24	56	0	0	0	0	0	0	0	id178	Unclassified Bacteria	1319145	64	78
+bin.181	root	5656	56	24	54	2	0	0	0	0	8.33	0	id180	Unclassified Bacteria	322244	63	22
+bin.183	k__Bacteria	5449	104	58	95	9	0	0	0	0	5.64	0	id182	Unclassified Bacteria	856008	58	67
+bin.190	root	5656	56	24	55	1	0	0	0	0	4.17	0	id189	Unclassified Bacteria	304074	68	22
+bin.192	k__Bacteria	5449	103	57	95	8	0	0	0	0	9.25	0	id191	Unclassified Bacteria	539151	57	39
+bin.195	root	5656	56	24	55	1	0	0	0	0	4.17	0	id194	Unclassified Bacteria	297234	63	20
+bin.197	root	5656	56	24	56	0	0	0	0	0	0	0	id196	Unclassified Bacteria	1747630	62	107
+bin.206	k__Bacteria	5449	104	58	100	4	0	0	0	0	6.9	0	id205	Unclassified Bacteria	1202067	66	84
+bin.207	k__Bacteria	5449	104	58	102	2	0	0	0	0	2.59	0	id206	Unclassified Bacteria	737466	66	51
+bin.209	root	5656	56	24	56	0	0	0	0	0	0	0	id208	Unclassified Bacteria	306063	64	24
+bin.221	k__Bacteria	5449	104	58	94	10	0	0	0	0	10	0	id220	Unclassified Bacteria	550636	57	39
+bin.234	root	5656	56	24	56	0	0	0	0	0	0	0	id233	Unclassified Bacteria	244804	60	7
+bin.237	root	5656	56	24	56	0	0	0	0	0	0	0	id236	Unclassified Bacteria	616872	65	42
+bin.243	k__Bacteria	5449	104	58	100	4	0	0	0	0	3.45	0	id242	Unclassified Bacteria	201627	61	16
+bin.257	k__Bacteria	2921	141	86	114	27	0	0	0	0	6.53	0	id256	Unclassified Bacteria	302425	66	23
+bin.260	k__Bacteria	5449	104	58	104	0	0	0	0	0	0	0	id259	Unclassified Bacteria	414994	50	5
+bin.262	root	5656	56	24	54	2	0	0	0	0	8.33	0	id261	Unclassified Bacteria	993991	63	71
+bin.263	k__Bacteria	5449	104	58	102	2	0	0	0	0	3.45	0	id262	Unclassified Bacteria	261377	67	20
+bin.264	root	5656	56	24	56	0	0	0	0	0	0	0	id263	Unclassified Bacteria	245143	46	15
+bin.266	root	5656	56	24	56	0	0	0	0	0	0	0	id265	Unclassified Bacteria	695429	56	42
+bin.270	root	5656	56	24	56	0	0	0	0	0	0	0	id269	Unclassified Bacteria	353030	36	26
+bin.276	root	5656	56	24	56	0	0	0	0	0	0	0	id275	Unclassified Bacteria	303388	61	15
+bin.277	root	5656	56	24	56	0	0	0	0	0	0	0	id276	Unclassified Bacteria	207162	40	9
+bin.279	root	5656	56	24	55	1	0	0	0	0	4.17	0	id278	Unclassified Bacteria	325490	65	24
+bin.281	root	5656	56	24	56	0	0	0	0	0	0	0	id280	Unclassified Bacteria	301741	60	22
+bin.289	k__Bacteria	5449	104	58	97	7	0	0	0	0	5.17	0	id288	Unclassified Bacteria	367579	58	29
+bin.293	root	5656	56	24	56	0	0	0	0	0	0	0	id292	Unclassified Bacteria	346727	55	4
+bin.294	root	5656	56	24	55	1	0	0	0	0	4.17	0	id293	Unclassified Bacteria	470580	60	35
+bin.295	k__Bacteria	5449	104	58	95	9	0	0	0	0	12.07	0	id294	Unclassified Bacteria	639991	62	47
+bin.296	root	5656	56	24	56	0	0	0	0	0	0	0	id295	Unclassified Bacteria	334701	33	15
+bin.299	root	5656	56	24	56	0	0	0	0	0	0	0	id298	Unclassified Bacteria	254932	62	6
+bin.309	root	5656	56	24	56	0	0	0	0	0	0	0	id308	Unclassified Bacteria	237297	62	20
+bin.311	root	5656	56	24	55	1	0	0	0	0	4.17	0	id310	Unclassified Bacteria	251301	61	21
+bin.314	root	5656	56	24	56	0	0	0	0	0	0	0	id313	Unclassified Bacteria	682249	57	33
+bin.315	root	5656	56	24	56	0	0	0	0	0	0	0	id314	Unclassified Bacteria	371832	61	26
+bin.316	k__Archaea	207	149	107	125	20	4	0	0	0	9.51	1.87	id315	Unclassified Bacteria	1386483	34	67
+bin.319	root	5656	56	24	55	1	0	0	0	0	4.17	0	id318	Unclassified Bacteria	305794	44	21
+bin.328	root	5656	56	24	56	0	0	0	0	0	0	0	id327	Unclassified Bacteria	244672	30	2
+bin.334	root	5656	56	24	56	0	0	0	0	0	0	0	id333	Unclassified Bacteria	465705	51	18
+bin.342	k__Bacteria	5449	100	55	96	4	0	0	0	0	7.27	0	id341	Unclassified Bacteria	435873	63	26
+bin.344	k__Bacteria	5449	104	58	96	8	0	0	0	0	12.07	0	id343	Unclassified Bacteria	279889	59	22
+bin.348	root	5656	56	24	56	0	0	0	0	0	0	0	id347	Unclassified Bacteria	481094	64	34
+bin.349	root	5656	56	24	56	0	0	0	0	0	0	0	id348	Unclassified Bacteria	462274	51	21
+bin.350	root	5656	56	24	56	0	0	0	0	0	0	0	id349	Unclassified Bacteria	582437	41	11
+bin.351	root	5656	56	24	56	0	0	0	0	0	0	0	id350	Unclassified Bacteria	346518	63	11
+bin.352	root	5656	56	24	56	0	0	0	0	0	0	0	id351	Unclassified Bacteria	232513	67	19
+bin.356	root	5656	56	24	56	0	0	0	0	0	0	0	id355	Unclassified Bacteria	290322	52	20
+bin.360	root	5656	56	24	55	1	0	0	0	0	4.17	0	id359	Unclassified Bacteria	340140	61	22
+bin.364	k__Bacteria	5449	104	58	104	0	0	0	0	0	0	0	id363	Unclassified Bacteria	324624	36	5
+bin.365	root	5656	56	24	56	0	0	0	0	0	0	0	id364	Unclassified Bacteria	308541	54	1
+bin.368	root	5656	56	24	56	0	0	0	0	0	0	0	id367	Unclassified Bacteria	324030	39	3
+bin.369	root	5656	56	24	56	0	0	0	0	0	0	0	id368	Unclassified Bacteria	494834	42	1
+bin.373	root	5656	56	24	55	1	0	0	0	0	4.17	0	id372	Unclassified Bacteria	224253	56	13
+bin.375	k__Bacteria	5449	104	58	97	7	0	0	0	0	10.34	0	id374	Unclassified Bacteria	2969930	61	174
+bin.378	root	5656	56	24	56	0	0	0	0	0	0	0	id377	Unclassified Bacteria	426522	61	33
+bin.382	root	5656	56	24	56	0	0	0	0	0	0	0	id381	Unclassified Bacteria	437781	39	1
+bin.383	k__Bacteria	5449	104	58	104	0	0	0	0	0	0	0	id382	Unclassified Bacteria	317688	37	9
+bin.386	k__Archaea	207	149	107	135	14	0	0	0	0	2.73	0	id385	Unclassified Bacteria	269668	49	6
+bin.388	root	5656	56	24	56	0	0	0	0	0	0	0	id387	Unclassified Bacteria	295489	45	1
+bin.389	root	5656	56	24	56	0	0	0	0	0	0	0	id388	Unclassified Bacteria	493427	63	36
+bin.391	root	5656	56	24	55	1	0	0	0	0	4.17	0	id390	Unclassified Bacteria	223437	62	19
+bin.392	k__Bacteria	5449	104	58	104	0	0	0	0	0	0	0	id391	Unclassified Bacteria	255615	39	20
